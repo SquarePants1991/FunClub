@@ -8,6 +8,8 @@
 
 #import <AsyncDisplayKit/AsyncDisplayKit.h>
 
-@interface TextTableNode : ASCellNode
-- (instancetype)initWithText:(NSString *)text;
+#import "WeiboListItemViewModel.h"
+
+@interface WeiboIndexCellNode : ASCellNode
+- (instancetype)initWithViewModel:(WeiboListItemViewModel *)viewModel;
 @end

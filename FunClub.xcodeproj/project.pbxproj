@@ -7,31 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D99191C1FAA186400BCE718 /* WeiboIndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D99191B1FAA186400BCE718 /* WeiboIndexViewController.m */; };
+		3D9919221FAA194B00BCE718 /* BaseFrameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9919211FAA194B00BCE718 /* BaseFrameViewController.m */; };
+		3D9919271FAA1D3E00BCE718 /* WeiboIndexService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9919261FAA1D3E00BCE718 /* WeiboIndexService.m */; };
+		3D99192B1FAA1DF500BCE718 /* WeiboListItemViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D99192A1FAA1DF500BCE718 /* WeiboListItemViewModel.m */; };
 		6D35AA22C00F4B36B34B9A2E /* Pods_FunClub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD4CB4108532D55680030025 /* Pods_FunClub.framework */; };
 		D3FECAFC1FA9C961006A2D6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FECAFB1FA9C961006A2D6F /* AppDelegate.m */; };
-		D3FECAFF1FA9C961006A2D6F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FECAFE1FA9C961006A2D6F /* ViewController.m */; };
 		D3FECB021FA9C961006A2D6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3FECB001FA9C961006A2D6F /* Main.storyboard */; };
 		D3FECB041FA9C961006A2D6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3FECB031FA9C961006A2D6F /* Assets.xcassets */; };
 		D3FECB071FA9C961006A2D6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3FECB051FA9C961006A2D6F /* LaunchScreen.storyboard */; };
 		D3FECB0A1FA9C961006A2D6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FECB091FA9C961006A2D6F /* main.m */; };
-		D3FECB121FA9CCCF006A2D6F /* TextTableNode.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FECB111FA9CCCF006A2D6F /* TextTableNode.m */; };
+		D3FECB121FA9CCCF006A2D6F /* WeiboIndexCellNode.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FECB111FA9CCCF006A2D6F /* WeiboIndexCellNode.m */; };
 		D3FECB141FA9D5DF006A2D6F /* avatar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3FECB131FA9D5DF006A2D6F /* avatar.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D99191A1FAA186400BCE718 /* WeiboIndexViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeiboIndexViewController.h; sourceTree = "<group>"; };
+		3D99191B1FAA186400BCE718 /* WeiboIndexViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeiboIndexViewController.m; sourceTree = "<group>"; };
+		3D9919201FAA194B00BCE718 /* BaseFrameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseFrameViewController.h; sourceTree = "<group>"; };
+		3D9919211FAA194B00BCE718 /* BaseFrameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseFrameViewController.m; sourceTree = "<group>"; };
+		3D9919251FAA1D3E00BCE718 /* WeiboIndexService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeiboIndexService.h; sourceTree = "<group>"; };
+		3D9919261FAA1D3E00BCE718 /* WeiboIndexService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeiboIndexService.m; sourceTree = "<group>"; };
+		3D9919291FAA1DF500BCE718 /* WeiboListItemViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeiboListItemViewModel.h; sourceTree = "<group>"; };
+		3D99192A1FAA1DF500BCE718 /* WeiboListItemViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeiboListItemViewModel.m; sourceTree = "<group>"; };
 		5779E97A943244946E5694DD /* Pods-FunClub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunClub.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FunClub/Pods-FunClub.debug.xcconfig"; sourceTree = "<group>"; };
 		D3FECAF71FA9C961006A2D6F /* FunClub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunClub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3FECAFA1FA9C961006A2D6F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D3FECAFB1FA9C961006A2D6F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D3FECAFD1FA9C961006A2D6F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D3FECAFE1FA9C961006A2D6F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D3FECB011FA9C961006A2D6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D3FECB031FA9C961006A2D6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3FECB061FA9C961006A2D6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3FECB081FA9C961006A2D6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3FECB091FA9C961006A2D6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D3FECB101FA9CCCF006A2D6F /* TextTableNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextTableNode.h; sourceTree = "<group>"; };
-		D3FECB111FA9CCCF006A2D6F /* TextTableNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextTableNode.m; sourceTree = "<group>"; };
+		D3FECB101FA9CCCF006A2D6F /* WeiboIndexCellNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeiboIndexCellNode.h; sourceTree = "<group>"; };
+		D3FECB111FA9CCCF006A2D6F /* WeiboIndexCellNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeiboIndexCellNode.m; sourceTree = "<group>"; };
 		D3FECB131FA9D5DF006A2D6F /* avatar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avatar.jpg; sourceTree = "<group>"; };
 		D4F833AE8C098C86ED0FA4D2 /* Pods-FunClub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunClub.release.xcconfig"; path = "Pods/Target Support Files/Pods-FunClub/Pods-FunClub.release.xcconfig"; sourceTree = "<group>"; };
 		FD4CB4108532D55680030025 /* Pods_FunClub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunClub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,6 +64,86 @@
 				FD4CB4108532D55680030025 /* Pods_FunClub.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D9919161FAA17EF00BCE718 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				3D99191E1FAA18E900BCE718 /* Behaviours */,
+				3D9919181FAA182800BCE718 /* Weibo Module */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		3D9919171FAA182300BCE718 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		3D9919181FAA182800BCE718 /* Weibo Module */ = {
+			isa = PBXGroup;
+			children = (
+				3D9919191FAA183F00BCE718 /* Weibo Index Page */,
+			);
+			path = "Weibo Module";
+			sourceTree = "<group>";
+		};
+		3D9919191FAA183F00BCE718 /* Weibo Index Page */ = {
+			isa = PBXGroup;
+			children = (
+				3D9919281FAA1DD300BCE718 /* View Model */,
+				3D9919241FAA1D2400BCE718 /* Service */,
+				3D9919231FAA1CBD00BCE718 /* UI Control */,
+				3D99191A1FAA186400BCE718 /* WeiboIndexViewController.h */,
+				3D99191B1FAA186400BCE718 /* WeiboIndexViewController.m */,
+			);
+			path = "Weibo Index Page";
+			sourceTree = "<group>";
+		};
+		3D99191E1FAA18E900BCE718 /* Behaviours */ = {
+			isa = PBXGroup;
+			children = (
+				3D99191F1FAA18F000BCE718 /* EntrySetup */,
+			);
+			path = Behaviours;
+			sourceTree = "<group>";
+		};
+		3D99191F1FAA18F000BCE718 /* EntrySetup */ = {
+			isa = PBXGroup;
+			children = (
+				3D9919201FAA194B00BCE718 /* BaseFrameViewController.h */,
+				3D9919211FAA194B00BCE718 /* BaseFrameViewController.m */,
+			);
+			path = EntrySetup;
+			sourceTree = "<group>";
+		};
+		3D9919231FAA1CBD00BCE718 /* UI Control */ = {
+			isa = PBXGroup;
+			children = (
+				D3FECB101FA9CCCF006A2D6F /* WeiboIndexCellNode.h */,
+				D3FECB111FA9CCCF006A2D6F /* WeiboIndexCellNode.m */,
+			);
+			path = "UI Control";
+			sourceTree = "<group>";
+		};
+		3D9919241FAA1D2400BCE718 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				3D9919251FAA1D3E00BCE718 /* WeiboIndexService.h */,
+				3D9919261FAA1D3E00BCE718 /* WeiboIndexService.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		3D9919281FAA1DD300BCE718 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				3D9919291FAA1DF500BCE718 /* WeiboListItemViewModel.h */,
+				3D99192A1FAA1DF500BCE718 /* WeiboListItemViewModel.m */,
+			);
+			path = "View Model";
 			sourceTree = "<group>";
 		};
 		C4E82B2F03CE0885B2741D98 /* Pods */ = {
@@ -87,18 +176,16 @@
 		D3FECAF91FA9C961006A2D6F /* FunClub */ = {
 			isa = PBXGroup;
 			children = (
+				3D9919171FAA182300BCE718 /* Components */,
+				3D9919161FAA17EF00BCE718 /* Modules */,
 				D3FECB131FA9D5DF006A2D6F /* avatar.jpg */,
 				D3FECAFA1FA9C961006A2D6F /* AppDelegate.h */,
 				D3FECAFB1FA9C961006A2D6F /* AppDelegate.m */,
-				D3FECAFD1FA9C961006A2D6F /* ViewController.h */,
-				D3FECAFE1FA9C961006A2D6F /* ViewController.m */,
 				D3FECB001FA9C961006A2D6F /* Main.storyboard */,
 				D3FECB031FA9C961006A2D6F /* Assets.xcassets */,
 				D3FECB051FA9C961006A2D6F /* LaunchScreen.storyboard */,
 				D3FECB081FA9C961006A2D6F /* Info.plist */,
 				D3FECB091FA9C961006A2D6F /* main.m */,
-				D3FECB101FA9CCCF006A2D6F /* TextTableNode.h */,
-				D3FECB111FA9CCCF006A2D6F /* TextTableNode.m */,
 			);
 			path = FunClub;
 			sourceTree = "<group>";
@@ -180,9 +267,20 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FunClub/Pods-FunClub-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework",
+				"${BUILT_PRODUCTS_DIR}/PINOperation/PINOperation.framework",
+				"${BUILT_PRODUCTS_DIR}/PINRemoteImage/PINRemoteImage.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/Texture/AsyncDisplayKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINOperation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINRemoteImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AsyncDisplayKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -195,13 +293,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FunClub-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D0F19759C1A934FE5DCC0557 /* [CP] Copy Pods Resources */ = {
@@ -226,10 +327,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3FECAFF1FA9C961006A2D6F /* ViewController.m in Sources */,
-				D3FECB121FA9CCCF006A2D6F /* TextTableNode.m in Sources */,
+				D3FECB121FA9CCCF006A2D6F /* WeiboIndexCellNode.m in Sources */,
 				D3FECB0A1FA9C961006A2D6F /* main.m in Sources */,
+				3D99192B1FAA1DF500BCE718 /* WeiboListItemViewModel.m in Sources */,
 				D3FECAFC1FA9C961006A2D6F /* AppDelegate.m in Sources */,
+				3D99191C1FAA186400BCE718 /* WeiboIndexViewController.m in Sources */,
+				3D9919221FAA194B00BCE718 /* BaseFrameViewController.m in Sources */,
+				3D9919271FAA1D3E00BCE718 /* WeiboIndexService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,10 +471,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P48344HVQL;
 				INFOPLIST_FILE = FunClub/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.ocean.FunClub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -382,10 +487,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P48344HVQL;
 				INFOPLIST_FILE = FunClub/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.ocean.FunClub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

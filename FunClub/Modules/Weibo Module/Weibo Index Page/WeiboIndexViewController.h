@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  WeiboIndexViewController.h
 //  FunClub
 //
-//  Created by wang yang on 2017/11/1.
+//  Created by yang wang on 2017/11/1.
 //  Copyright © 2017年 ocean. All rights reserved.
 //
 
 #import <AsyncDisplayKit/AsyncDisplayKit.h>
 
-@interface ViewController : ASViewController
-
+@interface WeiboIndexViewController : ASViewController
 
 @end
-
