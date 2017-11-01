@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D35AA22C00F4B36B34B9A2E /* Pods_FunClub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD4CB4108532D55680030025 /* Pods_FunClub.framework */; };
+		D3FECAFC1FA9C961006A2D6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FECAFB1FA9C961006A2D6F /* AppDelegate.m */; };
+		D3FECAFF1FA9C961006A2D6F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FECAFE1FA9C961006A2D6F /* ViewController.m */; };
+		D3FECB021FA9C961006A2D6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3FECB001FA9C961006A2D6F /* Main.storyboard */; };
+		D3FECB041FA9C961006A2D6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3FECB031FA9C961006A2D6F /* Assets.xcassets */; };
+		D3FECB071FA9C961006A2D6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3FECB051FA9C961006A2D6F /* LaunchScreen.storyboard */; };
+		D3FECB0A1FA9C961006A2D6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FECB091FA9C961006A2D6F /* main.m */; };
+		D3FECB121FA9CCCF006A2D6F /* TextTableNode.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FECB111FA9CCCF006A2D6F /* TextTableNode.m */; };
+		D3FECB141FA9D5DF006A2D6F /* avatar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3FECB131FA9D5DF006A2D6F /* avatar.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5779E97A943244946E5694DD /* Pods-FunClub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunClub.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FunClub/Pods-FunClub.debug.xcconfig"; sourceTree = "<group>"; };
+		D3FECAF71FA9C961006A2D6F /* FunClub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunClub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3FECAFA1FA9C961006A2D6F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D3FECAFB1FA9C961006A2D6F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D3FECAFD1FA9C961006A2D6F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D3FECAFE1FA9C961006A2D6F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D3FECB011FA9C961006A2D6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3FECB031FA9C961006A2D6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3FECB061FA9C961006A2D6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3FECB081FA9C961006A2D6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3FECB091FA9C961006A2D6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3FECB101FA9CCCF006A2D6F /* TextTableNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextTableNode.h; sourceTree = "<group>"; };
+		D3FECB111FA9CCCF006A2D6F /* TextTableNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextTableNode.m; sourceTree = "<group>"; };
+		D3FECB131FA9D5DF006A2D6F /* avatar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avatar.jpg; sourceTree = "<group>"; };
+		D4F833AE8C098C86ED0FA4D2 /* Pods-FunClub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunClub.release.xcconfig"; path = "Pods/Target Support Files/Pods-FunClub/Pods-FunClub.release.xcconfig"; sourceTree = "<group>"; };
+		FD4CB4108532D55680030025 /* Pods_FunClub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunClub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3FECAF41FA9C961006A2D6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D35AA22C00F4B36B34B9A2E /* Pods_FunClub.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1720479C830CE509E2339A00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD4CB4108532D55680030025 /* Pods_FunClub.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4E82B2F03CE0885B2741D98 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5779E97A943244946E5694DD /* Pods-FunClub.debug.xcconfig */,
+				D4F833AE8C098C86ED0FA4D2 /* Pods-FunClub.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D3FECAEE1FA9C961006A2D6F = {
+			isa = PBXGroup;
+			children = (
+				D3FECAF91FA9C961006A2D6F /* FunClub */,
+				D3FECAF81FA9C961006A2D6F /* Products */,
+				C4E82B2F03CE0885B2741D98 /* Pods */,
+				1720479C830CE509E2339A00 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D3FECAF81FA9C961006A2D6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3FECAF71FA9C961006A2D6F /* FunClub.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3FECAF91FA9C961006A2D6F /* FunClub */ = {
+			isa = PBXGroup;
+			children = (
+				D3FECB131FA9D5DF006A2D6F /* avatar.jpg */,
+				D3FECAFA1FA9C961006A2D6F /* AppDelegate.h */,
+				D3FECAFB1FA9C961006A2D6F /* AppDelegate.m */,
+				D3FECAFD1FA9C961006A2D6F /* ViewController.h */,
+				D3FECAFE1FA9C961006A2D6F /* ViewController.m */,
+				D3FECB001FA9C961006A2D6F /* Main.storyboard */,
+				D3FECB031FA9C961006A2D6F /* Assets.xcassets */,
+				D3FECB051FA9C961006A2D6F /* LaunchScreen.storyboard */,
+				D3FECB081FA9C961006A2D6F /* Info.plist */,
+				D3FECB091FA9C961006A2D6F /* main.m */,
+				D3FECB101FA9CCCF006A2D6F /* TextTableNode.h */,
+				D3FECB111FA9CCCF006A2D6F /* TextTableNode.m */,
+			);
+			path = FunClub;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3FECAF61FA9C961006A2D6F /* FunClub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3FECB0D1FA9C961006A2D6F /* Build configuration list for PBXNativeTarget "FunClub" */;
+			buildPhases = (
+				9D5DB2FBE0C5A3CB65090426 /* [CP] Check Pods Manifest.lock */,
+				D3FECAF31FA9C961006A2D6F /* Sources */,
+				D3FECAF41FA9C961006A2D6F /* Frameworks */,
+				D3FECAF51FA9C961006A2D6F /* Resources */,
+				4A85D3DDEAED7D0D80A797E2 /* [CP] Embed Pods Frameworks */,
+				D0F19759C1A934FE5DCC0557 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FunClub;
+			productName = FunClub;
+			productReference = D3FECAF71FA9C961006A2D6F /* FunClub.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3FECAEF1FA9C961006A2D6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = ocean;
+				TargetAttributes = {
+					D3FECAF61FA9C961006A2D6F = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D3FECAF21FA9C961006A2D6F /* Build configuration list for PBXProject "FunClub" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3FECAEE1FA9C961006A2D6F;
+			productRefGroup = D3FECAF81FA9C961006A2D6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3FECAF61FA9C961006A2D6F /* FunClub */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3FECAF51FA9C961006A2D6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3FECB141FA9D5DF006A2D6F /* avatar.jpg in Resources */,
+				D3FECB071FA9C961006A2D6F /* LaunchScreen.storyboard in Resources */,
+				D3FECB041FA9C961006A2D6F /* Assets.xcassets in Resources */,
+				D3FECB021FA9C961006A2D6F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A85D3DDEAED7D0D80A797E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FunClub/Pods-FunClub-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D5DB2FBE0C5A3CB65090426 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D0F19759C1A934FE5DCC0557 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FunClub/Pods-FunClub-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3FECAF31FA9C961006A2D6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3FECAFF1FA9C961006A2D6F /* ViewController.m in Sources */,
+				D3FECB121FA9CCCF006A2D6F /* TextTableNode.m in Sources */,
+				D3FECB0A1FA9C961006A2D6F /* main.m in Sources */,
+				D3FECAFC1FA9C961006A2D6F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D3FECB001FA9C961006A2D6F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3FECB011FA9C961006A2D6F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3FECB051FA9C961006A2D6F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3FECB061FA9C961006A2D6F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3FECB0B1FA9C961006A2D6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D3FECB0C1FA9C961006A2D6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3FECB0E1FA9C961006A2D6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5779E97A943244946E5694DD /* Pods-FunClub.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P48344HVQL;
+				INFOPLIST_FILE = FunClub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.ocean.FunClub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3FECB0F1FA9C961006A2D6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4F833AE8C098C86ED0FA4D2 /* Pods-FunClub.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P48344HVQL;
+				INFOPLIST_FILE = FunClub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.ocean.FunClub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3FECAF21FA9C961006A2D6F /* Build configuration list for PBXProject "FunClub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3FECB0B1FA9C961006A2D6F /* Debug */,
+				D3FECB0C1FA9C961006A2D6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3FECB0D1FA9C961006A2D6F /* Build configuration list for PBXNativeTarget "FunClub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3FECB0E1FA9C961006A2D6F /* Debug */,
+				D3FECB0F1FA9C961006A2D6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3FECAEF1FA9C961006A2D6F /* Project object */;
+}
