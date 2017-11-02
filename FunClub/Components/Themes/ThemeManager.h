@@ -24,5 +24,6 @@
 @property (strong, nonatomic) UIColor *borderColor;
 @property (strong, nonatomic) UIColor *lightBackgroundColor;
 @property (strong, nonatomic) UIColor *darkBackgroundColor;
+@property (strong, nonatomic) UIColor *deepDarkBackgroundColor;
 @property (strong, nonatomic) UIColor *darkMaskColor;
 @end

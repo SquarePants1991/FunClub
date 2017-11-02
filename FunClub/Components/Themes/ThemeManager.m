@@ -32,6 +32,7 @@
         self.borderColor = [UIColor colorWithWhite:0.7 alpha:1.0];
         self.lightBackgroundColor = [UIColor colorWithWhite:0.98 alpha:1.0];
         self.darkBackgroundColor = [UIColor colorWithWhite:0.9 alpha:1.0];
+        self.deepDarkBackgroundColor = [UIColor colorWithWhite:0.1 alpha:1.0];
         self.darkMaskColor = [UIColor colorWithWhite:0.1 alpha:0.7];
     }
     return self;

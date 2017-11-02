@@ -7,6 +7,7 @@
 //
 
 #import "ImageViewerViewController.h"
+#import "ThemeManager.h"
 
 #import <ReactiveCocoa/ReactiveCocoa.h>
 
@@ -18,9 +19,14 @@
 
 @implementation ImageViewerViewController
 
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    [self.navigationController setNavigationBarHidden:YES animated:YES];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor grayColor];
+    self.view.backgroundColor = Theme.deepDarkBackgroundColor;
     _imageNode = [ASImageNode new];
     _imageNode.image = self.image;
     _imageNode.animatedImage = self.animatedImage;
@@ -44,11 +50,17 @@
         ASCenterLayoutSpec *centerSpec = [ASCenterLayoutSpec centerLayoutSpecWithCenteringOptions:ASCenterLayoutSpecCenteringXY sizingOptions:ASCenterLayoutSpecSizingOptionDefault child:ratioSpec];
         return centerSpec;
     };
+
+    [_imageNode addTarget:self action:@selector(imageTapped:) forControlEvents:ASControlNodeEventTouchUpInside];
 }
 
 - (void)viewWillLayoutSubviews {
     [super viewWillLayoutSubviews];
     _scrollNode.frame = self.view.frame;
+}
+
+- (void)imageTapped:(id)sender {
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 @end
