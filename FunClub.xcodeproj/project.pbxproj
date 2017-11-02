@@ -19,6 +19,9 @@
 		D3FECB0A1FA9C961006A2D6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FECB091FA9C961006A2D6F /* main.m */; };
 		D3FECB121FA9CCCF006A2D6F /* WeiboIndexCellNode.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FECB111FA9CCCF006A2D6F /* WeiboIndexCellNode.m */; };
 		D3FECB141FA9D5DF006A2D6F /* avatar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3FECB131FA9D5DF006A2D6F /* avatar.jpg */; };
+		D3FECB191FAAE9BE006A2D6F /* ThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FECB181FAAE9BE006A2D6F /* ThemeManager.m */; };
+		D3FECB1E1FAAFF33006A2D6F /* ImageViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FECB1D1FAAFF33006A2D6F /* ImageViewer.m */; };
+		D3FECB211FAAFF44006A2D6F /* ImageViewerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FECB201FAAFF44006A2D6F /* ImageViewerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +45,12 @@
 		D3FECB101FA9CCCF006A2D6F /* WeiboIndexCellNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeiboIndexCellNode.h; sourceTree = "<group>"; };
 		D3FECB111FA9CCCF006A2D6F /* WeiboIndexCellNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeiboIndexCellNode.m; sourceTree = "<group>"; };
 		D3FECB131FA9D5DF006A2D6F /* avatar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avatar.jpg; sourceTree = "<group>"; };
+		D3FECB171FAAE9BE006A2D6F /* ThemeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThemeManager.h; sourceTree = "<group>"; };
+		D3FECB181FAAE9BE006A2D6F /* ThemeManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThemeManager.m; sourceTree = "<group>"; };
+		D3FECB1C1FAAFF33006A2D6F /* ImageViewer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageViewer.h; sourceTree = "<group>"; };
+		D3FECB1D1FAAFF33006A2D6F /* ImageViewer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageViewer.m; sourceTree = "<group>"; };
+		D3FECB1F1FAAFF44006A2D6F /* ImageViewerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageViewerViewController.h; sourceTree = "<group>"; };
+		D3FECB201FAAFF44006A2D6F /* ImageViewerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageViewerViewController.m; sourceTree = "<group>"; };
 		D4F833AE8C098C86ED0FA4D2 /* Pods-FunClub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunClub.release.xcconfig"; path = "Pods/Target Support Files/Pods-FunClub/Pods-FunClub.release.xcconfig"; sourceTree = "<group>"; };
 		FD4CB4108532D55680030025 /* Pods_FunClub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunClub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -73,13 +82,6 @@
 				3D9919181FAA182800BCE718 /* Weibo Module */,
 			);
 			path = Modules;
-			sourceTree = "<group>";
-		};
-		3D9919171FAA182300BCE718 /* Components */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Components;
 			sourceTree = "<group>";
 		};
 		3D9919181FAA182800BCE718 /* Weibo Module */ = {
@@ -176,7 +178,7 @@
 		D3FECAF91FA9C961006A2D6F /* FunClub */ = {
 			isa = PBXGroup;
 			children = (
-				3D9919171FAA182300BCE718 /* Components */,
+				D3FECB151FAAE996006A2D6F /* Components */,
 				3D9919161FAA17EF00BCE718 /* Modules */,
 				D3FECB131FA9D5DF006A2D6F /* avatar.jpg */,
 				D3FECAFA1FA9C961006A2D6F /* AppDelegate.h */,
@@ -188,6 +190,35 @@
 				D3FECB091FA9C961006A2D6F /* main.m */,
 			);
 			path = FunClub;
+			sourceTree = "<group>";
+		};
+		D3FECB151FAAE996006A2D6F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D3FECB1B1FAAFF19006A2D6F /* Image Viewer */,
+				D3FECB161FAAE99A006A2D6F /* Themes */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D3FECB161FAAE99A006A2D6F /* Themes */ = {
+			isa = PBXGroup;
+			children = (
+				D3FECB171FAAE9BE006A2D6F /* ThemeManager.h */,
+				D3FECB181FAAE9BE006A2D6F /* ThemeManager.m */,
+			);
+			path = Themes;
+			sourceTree = "<group>";
+		};
+		D3FECB1B1FAAFF19006A2D6F /* Image Viewer */ = {
+			isa = PBXGroup;
+			children = (
+				D3FECB1C1FAAFF33006A2D6F /* ImageViewer.h */,
+				D3FECB1D1FAAFF33006A2D6F /* ImageViewer.m */,
+				D3FECB1F1FAAFF44006A2D6F /* ImageViewerViewController.h */,
+				D3FECB201FAAFF44006A2D6F /* ImageViewerViewController.m */,
+			);
+			path = "Image Viewer";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,7 +333,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		D0F19759C1A934FE5DCC0557 /* [CP] Copy Pods Resources */ = {
@@ -331,9 +362,12 @@
 				D3FECB0A1FA9C961006A2D6F /* main.m in Sources */,
 				3D99192B1FAA1DF500BCE718 /* WeiboListItemViewModel.m in Sources */,
 				D3FECAFC1FA9C961006A2D6F /* AppDelegate.m in Sources */,
+				D3FECB211FAAFF44006A2D6F /* ImageViewerViewController.m in Sources */,
 				3D99191C1FAA186400BCE718 /* WeiboIndexViewController.m in Sources */,
+				D3FECB1E1FAAFF33006A2D6F /* ImageViewer.m in Sources */,
 				3D9919221FAA194B00BCE718 /* BaseFrameViewController.m in Sources */,
 				3D9919271FAA1D3E00BCE718 /* WeiboIndexService.m in Sources */,
+				D3FECB191FAAE9BE006A2D6F /* ThemeManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

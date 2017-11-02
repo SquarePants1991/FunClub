@@ -9,6 +9,7 @@
 #import "WeiboIndexViewController.h"
 #import "WeiboIndexCellNode.h"
 #import "WeiboIndexService.h"
+#import "ThemeManager.h"
 
 #import <ReactiveCocoa/ReactiveCocoa.h>
 
@@ -34,6 +35,8 @@
     _tableNode.dataSource = self;
     _tableNode.leadingScreensForBatching = 1.0;
     [self.view addSubnode:_tableNode];
+    _tableNode.backgroundColor = Theme.darkBackgroundColor;
+    _tableNode.view.separatorStyle = UITableViewCellSeparatorStyleNone;
 }
 
 - (void)viewWillLayoutSubviews {

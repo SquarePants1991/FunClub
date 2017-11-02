@@ -12,7 +12,7 @@
 
 #import "WeiboListItemViewModel.h"
 
-#define PageSize 15
+#define PageSize 3
 
 @implementation WeiboIndexService
 - (instancetype)init
@@ -47,6 +47,7 @@
             [viewModel setTime: [item[@"update_time"] doubleValue]];
             [viewModel setImageUrl:item[@"wpic_large"]];
             [viewModel setTitle:item[@"wbody"]];
+            [viewModel setLikesCount:(int)([item[@"likes"] doubleValue])];
             if ([item[@"w_sensitive"] intValue] == 0) {
                 [viewModels addObject:viewModel];
             }

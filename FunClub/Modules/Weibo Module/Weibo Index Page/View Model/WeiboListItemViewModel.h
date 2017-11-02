@@ -12,6 +12,7 @@
 @property (nonatomic, copy) NSString * timeString;
 @property (nonatomic, copy) NSString * title;
 @property (nonatomic, copy) NSString * imageUrl;
+@property (nonatomic, assign) int likesCount;
 
 - (void)setTime:(NSTimeInterval)timestamp;
 @end
