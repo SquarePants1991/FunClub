@@ -1,4 +1,8 @@
 PODS:
+  - MJRefresh (3.1.14.1)
+  - MZAppearance (1.1.6)
+  - MZFormSheetPresentationController (2.4.3):
+    - MZAppearance
   - PINCache (3.0.1-beta.5):
     - PINCache/Arc-exception-safe (= 3.0.1-beta.5)
     - PINCache/Core (= 3.0.1-beta.5)
@@ -30,16 +34,21 @@ PODS:
     - Texture/Core
 
 DEPENDENCIES:
+  - MJRefresh
+  - MZFormSheetPresentationController
   - ReactiveCocoa (~> 2.5.0)
   - Texture
 
 SPEC CHECKSUMS:
+  MJRefresh: 238e6a37e2dba12160ee3b79f6d2a2b26abcab42
+  MZAppearance: 0c06d3fa9cc55142f1da14bc8631fbe8fd6e19d5
+  MZFormSheetPresentationController: fbfdbad31884f16fac17fbe3c44c168306cc1095
   PINCache: 98e7b1ef782824ad231ade51987c218b758c30d8
   PINOperation: ac23db44796d4a564ecf9b5ea7163510f579b71d
   PINRemoteImage: 0cefe720c2612960bd360710efbd6c73a1991d5f
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
   Texture: c3f06e344aa091667b7a56002e525cde674d021a
 
-PODFILE CHECKSUM: 5005ee72a78be0983cc4141dec9ae67d07be3c31
+PODFILE CHECKSUM: 1ef3df8a9c347e9842f0d7c36606760f0f6163b5
 
 COCOAPODS: 1.2.1

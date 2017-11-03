@@ -9,18 +9,21 @@
 #import "WeiboIndexCellNode.h"
 #import "ThemeManager.h"
 #import "ImageViewer.h"
+#import "DXRouter.h"
 
 @interface WeiboIndexCellNode() <ASNetworkImageNodeDelegate> {
     ASTextNode *_timeNode;
     ASTextNode *_titleNode;
     ASNetworkImageNode *_imageNode;
-    ASTextNode * _likeCountNode;
-    ASButtonNode * _likeButtonNode;
-    ASButtonNode * _commentButtonNode;
+    ASTextNode *_likeCountNode;
+    ASButtonNode *_likeButtonNode;
+    ASButtonNode *_commentButtonNode;
     ASRatioLayoutSpec *_imageNodeSpec;
     
     ASDisplayNode *_rootBgView;
-    ASButtonNode * _seeCompleteImageButton;
+    ASButtonNode *_seeCompleteImageButton;
+
+    WeiboListItemViewModel *_viewModel;
 }
 
 @end
@@ -30,6 +33,8 @@
 {
     self = [super init];
     if (self) {
+        _viewModel = viewModel;
+
         _rootBgView = [ASDisplayNode new];
         _rootBgView.backgroundColor = Theme.lightBackgroundColor;
         _rootBgView.borderColor = Theme.borderColor.CGColor;
@@ -148,7 +153,7 @@
 }
 
 - (void)commentButtonTapped:(id)sender {
-    NSLog(@"Comment");
+    [[DXRouter shared] navigateTo:@"CommentList" arguments:@{@"uid": @(_viewModel.uid), @"postID": @(_viewModel.wid)}];
 }
 
 - (void)imageTapped:(id)sender {

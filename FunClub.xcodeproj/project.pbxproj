@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1681506CD091A8228C8AD914 /* DXNotExistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16815CA9D2792F5C0D71858E /* DXNotExistViewController.m */; };
+		168156CE9EFF131E9E216E4C /* DXRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 168152D1385764425A84E5CA /* DXRouter.m */; };
+		168156E7309D1878ABB0C87C /* CommentListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16815AF7CC8B2E68BE2DF726 /* CommentListViewController.m */; };
+		1681583C7BAC27CFAD36D42E /* CommentCellNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 168152AFA67A92FE3F4E83B4 /* CommentCellNode.m */; };
+		16815CCF931534EFCCF41B47 /* CommentListItemViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 168151EA6639BC05A895E3C7 /* CommentListItemViewModel.m */; };
+		16815D723C2E67D101C62AF9 /* DXRouterUrlHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1681560DDF17ADA1802BD809 /* DXRouterUrlHandler.m */; };
+		16815DB8EF9F25E002342002 /* PaginationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16815BD6268E310A4CF4C798 /* PaginationTableViewController.m */; };
+		16815DD7EB111D8D13DD8A15 /* UIButton+DXRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 168155C7831994A9FF478A50 /* UIButton+DXRouter.m */; };
+		16815DF6A5C56882A705671B /* CommentService.m in Sources */ = {isa = PBXBuildFile; fileRef = 168150E637A5A29C40A6A34C /* CommentService.m */; };
 		3D99191C1FAA186400BCE718 /* WeiboIndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D99191B1FAA186400BCE718 /* WeiboIndexViewController.m */; };
 		3D9919221FAA194B00BCE718 /* BaseFrameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9919211FAA194B00BCE718 /* BaseFrameViewController.m */; };
 		3D9919271FAA1D3E00BCE718 /* WeiboIndexService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9919261FAA1D3E00BCE718 /* WeiboIndexService.m */; };
@@ -25,6 +34,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		168150E637A5A29C40A6A34C /* CommentService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentService.m; sourceTree = "<group>"; };
+		168151EA6639BC05A895E3C7 /* CommentListItemViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentListItemViewModel.m; sourceTree = "<group>"; };
+		168152AFA67A92FE3F4E83B4 /* CommentCellNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentCellNode.m; sourceTree = "<group>"; };
+		168152D1385764425A84E5CA /* DXRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXRouter.m; sourceTree = "<group>"; };
+		168154A5FB94F3748165704D /* DXRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXRouter.h; sourceTree = "<group>"; };
+		16815531AC0B3CB0EC49A5BE /* DXNotExistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXNotExistViewController.h; sourceTree = "<group>"; };
+		168155C7831994A9FF478A50 /* UIButton+DXRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+DXRouter.m"; sourceTree = "<group>"; };
+		1681560DDF17ADA1802BD809 /* DXRouterUrlHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXRouterUrlHandler.m; sourceTree = "<group>"; };
+		16815738EF39B8B3220C14B6 /* CommentCellNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentCellNode.h; sourceTree = "<group>"; };
+		1681577C9ACA78B3EC466F6E /* CommentListItemViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentListItemViewModel.h; sourceTree = "<group>"; };
+		1681581800F32CC528606478 /* CommentService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentService.h; sourceTree = "<group>"; };
+		1681583A16912FC2D626E62F /* CommentListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentListViewController.h; sourceTree = "<group>"; };
+		16815894C5EDE4B613C86DDB /* UIButton+DXRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+DXRouter.h"; sourceTree = "<group>"; };
+		168158AB1E02C341B2F2F80C /* DXRouterViewControllerDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXRouterViewControllerDialog.h; sourceTree = "<group>"; };
+		16815AF7CC8B2E68BE2DF726 /* CommentListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentListViewController.m; sourceTree = "<group>"; };
+		16815B11C7691296BB2BFE17 /* DXRouterViewControllerInstantiation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXRouterViewControllerInstantiation.h; sourceTree = "<group>"; };
+		16815BD6268E310A4CF4C798 /* PaginationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaginationTableViewController.m; sourceTree = "<group>"; };
+		16815C6DC9B0787DEBC579D5 /* DXRouterUrlHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXRouterUrlHandler.h; sourceTree = "<group>"; };
+		16815C8700213283FA683E0B /* DXRouterHelperMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXRouterHelperMacros.h; sourceTree = "<group>"; };
+		16815CA9D2792F5C0D71858E /* DXNotExistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXNotExistViewController.m; sourceTree = "<group>"; };
+		16815D11498F730A09EF165A /* PaginationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaginationTableViewController.h; sourceTree = "<group>"; };
 		3D99191A1FAA186400BCE718 /* WeiboIndexViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeiboIndexViewController.h; sourceTree = "<group>"; };
 		3D99191B1FAA186400BCE718 /* WeiboIndexViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeiboIndexViewController.m; sourceTree = "<group>"; };
 		3D9919201FAA194B00BCE718 /* BaseFrameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseFrameViewController.h; sourceTree = "<group>"; };
@@ -67,6 +97,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1681504E0437954DAAD458FC /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				168150E637A5A29C40A6A34C /* CommentService.m */,
+				1681581800F32CC528606478 /* CommentService.h */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		1681553E9A069C22F2679C46 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				16815531AC0B3CB0EC49A5BE /* DXNotExistViewController.h */,
+				16815CA9D2792F5C0D71858E /* DXNotExistViewController.m */,
+				168154A5FB94F3748165704D /* DXRouter.h */,
+				168152D1385764425A84E5CA /* DXRouter.m */,
+				16815C8700213283FA683E0B /* DXRouterHelperMacros.h */,
+				16815C6DC9B0787DEBC579D5 /* DXRouterUrlHandler.h */,
+				1681560DDF17ADA1802BD809 /* DXRouterUrlHandler.m */,
+				168158AB1E02C341B2F2F80C /* DXRouterViewControllerDialog.h */,
+				16815B11C7691296BB2BFE17 /* DXRouterViewControllerInstantiation.h */,
+				16815894C5EDE4B613C86DDB /* UIButton+DXRouter.h */,
+				168155C7831994A9FF478A50 /* UIButton+DXRouter.m */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		168158373A6FB033D8598100 /* UI Control */ = {
+			isa = PBXGroup;
+			children = (
+				168152AFA67A92FE3F4E83B4 /* CommentCellNode.m */,
+				16815738EF39B8B3220C14B6 /* CommentCellNode.h */,
+			);
+			path = "UI Control";
+			sourceTree = "<group>";
+		};
+		168159DE5435F4164C4B8E22 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				168151EA6639BC05A895E3C7 /* CommentListItemViewModel.m */,
+				1681577C9ACA78B3EC466F6E /* CommentListItemViewModel.h */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		16815A3759EC5A01E9D3455E /* Comment List Page */ = {
+			isa = PBXGroup;
+			children = (
+				16815AF7CC8B2E68BE2DF726 /* CommentListViewController.m */,
+				1681583A16912FC2D626E62F /* CommentListViewController.h */,
+				1681504E0437954DAAD458FC /* Service */,
+				168159DE5435F4164C4B8E22 /* View Model */,
+				168158373A6FB033D8598100 /* UI Control */,
+			);
+			path = "Comment List Page";
+			sourceTree = "<group>";
+		};
+		16815BFE16080DDFA1DBEC38 /* Pagination Table ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				16815BD6268E310A4CF4C798 /* PaginationTableViewController.m */,
+				16815D11498F730A09EF165A /* PaginationTableViewController.h */,
+			);
+			path = "Pagination Table ViewController";
+			sourceTree = "<group>";
+		};
 		1720479C830CE509E2339A00 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				3D9919191FAA183F00BCE718 /* Weibo Index Page */,
+				16815A3759EC5A01E9D3455E /* Comment List Page */,
 			);
 			path = "Weibo Module";
 			sourceTree = "<group>";
@@ -197,6 +294,8 @@
 			children = (
 				D3FECB1B1FAAFF19006A2D6F /* Image Viewer */,
 				D3FECB161FAAE99A006A2D6F /* Themes */,
+				1681553E9A069C22F2679C46 /* Router */,
+				16815BFE16080DDFA1DBEC38 /* Pagination Table ViewController */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -368,6 +467,15 @@
 				3D9919221FAA194B00BCE718 /* BaseFrameViewController.m in Sources */,
 				3D9919271FAA1D3E00BCE718 /* WeiboIndexService.m in Sources */,
 				D3FECB191FAAE9BE006A2D6F /* ThemeManager.m in Sources */,
+				168156E7309D1878ABB0C87C /* CommentListViewController.m in Sources */,
+				16815DB8EF9F25E002342002 /* PaginationTableViewController.m in Sources */,
+				16815DF6A5C56882A705671B /* CommentService.m in Sources */,
+				16815CCF931534EFCCF41B47 /* CommentListItemViewModel.m in Sources */,
+				1681583C7BAC27CFAD36D42E /* CommentCellNode.m in Sources */,
+				1681506CD091A8228C8AD914 /* DXNotExistViewController.m in Sources */,
+				168156CE9EFF131E9E216E4C /* DXRouter.m in Sources */,
+				16815D723C2E67D101C62AF9 /* DXRouterUrlHandler.m in Sources */,
+				16815DD7EB111D8D13DD8A15 /* UIButton+DXRouter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

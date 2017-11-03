@@ -8,4 +8,6 @@ target 'FunClub' do
   # Pods for FunClub
   pod "Texture"
   pod "ReactiveCocoa", "~> 2.5.0”
+  pod "MJRefresh"
+  pod "MZFormSheetPresentationController"
 end

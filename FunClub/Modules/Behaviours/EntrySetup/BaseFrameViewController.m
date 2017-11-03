@@ -8,17 +8,20 @@
 
 #import "BaseFrameViewController.h"
 #import "WeiboIndexViewController.h"
+#import "DXRouter.h"
 
-@interface BaseFrameViewController ()
+@interface BaseFrameViewController () <DXRouterViewControllerInstantiation>
 
 @end
 
 @implementation BaseFrameViewController
 
+DXRouterInitPage()
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor redColor];
-    
+    self.title = @"Funny！";
     [self createWeibo];
 }
 

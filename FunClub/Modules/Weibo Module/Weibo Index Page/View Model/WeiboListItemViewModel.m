@@ -14,5 +14,6 @@
     NSDateFormatter *dateFormatter = [NSDateFormatter new];
     [dateFormatter setDateFormat:@"yyyy-MM-dd HH:mm:ss"];
     self.timeString = [dateFormatter stringFromDate:date];
+    self.timestamp = timestamp;
 }
 @end

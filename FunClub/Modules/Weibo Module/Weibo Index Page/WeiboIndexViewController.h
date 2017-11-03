@@ -6,8 +6,8 @@
 //  Copyright © 2017年 ocean. All rights reserved.
 //
 
-#import <AsyncDisplayKit/AsyncDisplayKit.h>
+#import "PaginationTableViewController.h"
 
-@interface WeiboIndexViewController : ASViewController
+@interface WeiboIndexViewController : PaginationTableViewController
 
 @end

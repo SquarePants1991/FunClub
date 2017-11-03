@@ -11,11 +11,12 @@
 #import "WeiboIndexService.h"
 #import "ThemeManager.h"
 
-#import <ReactiveCocoa/ReactiveCocoa.h>
+#import "DXRouter.h"
 
-@interface WeiboIndexViewController () <ASTableDelegate, ASTableDataSource> {
-    NSMutableArray * _dataSource;
-    ASTableNode *_tableNode;
+#import <ReactiveCocoa/ReactiveCocoa.h>
+#import <MJRefresh/MJRefresh.h>
+
+@interface WeiboIndexViewController () <DXRouterViewControllerInstantiation> {
     WeiboIndexService *_service;
 }
 
@@ -23,67 +24,55 @@
 
 @implementation WeiboIndexViewController
 
+DXRouterInitPage()
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    [self.navigationController setNavigationBarHidden:NO animated:YES];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    _dataSource = [NSMutableArray new];
     _service = [WeiboIndexService new];
-    
-    _tableNode = [[ASTableNode alloc] init];
-    _tableNode.delegate = self;
-    _tableNode.dataSource = self;
-    _tableNode.leadingScreensForBatching = 1.0;
-    [self.view addSubnode:_tableNode];
-    _tableNode.backgroundColor = Theme.darkBackgroundColor;
-    _tableNode.view.separatorStyle = UITableViewCellSeparatorStyleNone;
-}
-
-- (void)viewWillLayoutSubviews {
-    [super viewWillLayoutSubviews];
-    _tableNode.frame = self.view.frame;
-}
-
-- (NSInteger)numberOfSectionsInTableNode:(ASTableNode *)tableNode {
-    return 1;
-}
-
-- (NSInteger)tableNode:(ASTableNode *)tableNode numberOfRowsInSection:(NSInteger)section {
-    return [_dataSource count];
 }
 
 - (ASCellNodeBlock)tableNode:(ASTableNode *)tableNode nodeBlockForRowAtIndexPath:(NSIndexPath *)indexPath {
-    WeiboListItemViewModel *viewModel = _dataSource[indexPath.row];
+    WeiboListItemViewModel *viewModel = self.dataSource[indexPath.row];
     return ^{
         WeiboIndexCellNode *node = [[WeiboIndexCellNode alloc] initWithViewModel:viewModel];
         return node;
     };
 }
 
-- (BOOL)shouldBatchFetchForTableNode:(ASTableNode *)tableNode {
-    return YES;
-}
-
-- (void)tableNode:(ASTableNode *)tableNode willBeginBatchFetchWithContext:(ASBatchContext *)context {
-    [context beginBatchFetching];
-    [self fetchMoreData:context];
-}
-
-#pragma mark - Fake Data
+#pragma mark - Data Process
 - (void)fetchMoreData:(ASBatchContext *)context {
     [[_service fetchWeiboList] subscribeNext:^(NSArray * items) {
-        [_dataSource addObjectsFromArray:items];
+        [self.dataSource addObjectsFromArray:items];
         NSMutableArray *paths = [NSMutableArray new];
         for (int i = (int)items.count; i > 0; --i) {
-            NSIndexPath *indexPath = [NSIndexPath indexPathForRow:_dataSource.count - i inSection:0];
+            NSIndexPath *indexPath = [NSIndexPath indexPathForRow:self.dataSource.count - i inSection:0];
             [paths addObject:indexPath];
         }
         dispatch_async(dispatch_get_main_queue(), ^{
-            [_tableNode insertRowsAtIndexPaths:paths withRowAnimation:UITableViewRowAnimationNone];
+            [self.tableNode insertRowsAtIndexPaths:paths withRowAnimation:UITableViewRowAnimationNone];
             [context completeBatchFetching:YES];
         });
     } error:^(NSError *error) {
         
+    }];
+}
+
+- (void)refreshData {
+    @weakify(self);
+    [[_service refreshWeiboList] subscribeNext:^(id x) {
+        @strongify(self);
+        self.dataSource = x;
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [self.tableNode reloadData];
+            [self.tableNode.view.mj_header endRefreshing];
+        });
+    } error:^(NSError *error) {
+
     }];
 }
 @end
