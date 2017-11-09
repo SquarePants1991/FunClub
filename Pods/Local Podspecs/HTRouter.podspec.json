@@ -1,0 +1,27 @@
+{
+  "name": "HTRouter",
+  "version": "0.1.0",
+  "summary": "A short description of HTRouter.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tomcat2088/HTRouter",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tomcat2088": "yang1.wang@baidao.com"
+  },
+  "source": {
+    "git": "https://github.com/tomcat2088/HTRouter.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HTRouter/Classes/**/*",
+  "dependencies": {
+    "MZFormSheetPresentationController": [
+      "~> 2.4.2"
+    ]
+  }
+}

@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '18D4FE884EAD702F4C5992A42C5BF9AA'
-               BlueprintName = 'Texture'
+               BlueprintIdentifier = '65A57E99972BA194FC952C1F586F7257'
+               BlueprintName = 'HTRouter'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'Texture.framework'>
+               BuildableName = 'HTRouter.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

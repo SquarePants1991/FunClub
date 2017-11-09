@@ -1,5 +1,7 @@
 PODS:
-  - MJRefresh (3.1.14.1)
+  - HTRouter (0.1.0):
+    - MZFormSheetPresentationController (~> 2.4.2)
+  - MJRefresh (3.1.15)
   - MZAppearance (1.1.6)
   - MZFormSheetPresentationController (2.4.3):
     - MZAppearance
@@ -34,13 +36,24 @@ PODS:
     - Texture/Core
 
 DEPENDENCIES:
+  - HTRouter (from `git@github.com:SquarePants1991/HTRouter.git`)
   - MJRefresh
   - MZFormSheetPresentationController
   - ReactiveCocoa (~> 2.5.0)
   - Texture
 
+EXTERNAL SOURCES:
+  HTRouter:
+    :git: git@github.com:SquarePants1991/HTRouter.git
+
+CHECKOUT OPTIONS:
+  HTRouter:
+    :commit: 7e2da67f7717922c6a56e89ab03fe8d974e1001a
+    :git: git@github.com:SquarePants1991/HTRouter.git
+
 SPEC CHECKSUMS:
-  MJRefresh: 238e6a37e2dba12160ee3b79f6d2a2b26abcab42
+  HTRouter: a5cbce570e01325be662509e05eb9832a21b11cb
+  MJRefresh: 9af70f5f9327a2cf87f0fb5929f35fcc2fa638ea
   MZAppearance: 0c06d3fa9cc55142f1da14bc8631fbe8fd6e19d5
   MZFormSheetPresentationController: fbfdbad31884f16fac17fbe3c44c168306cc1095
   PINCache: 98e7b1ef782824ad231ade51987c218b758c30d8
@@ -49,6 +62,6 @@ SPEC CHECKSUMS:
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
   Texture: c3f06e344aa091667b7a56002e525cde674d021a
 
-PODFILE CHECKSUM: 1ef3df8a9c347e9842f0d7c36606760f0f6163b5
+PODFILE CHECKSUM: caf16d9bfe78cd6a8a06ef40596b063344c8241d
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.4.0.beta.2

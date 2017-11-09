@@ -2,32 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6940891-b763-4887-9aa6-afd380ab5efa" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FunClub.xcworkspace/xcuserdata/wangyang.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/FunClub.xcworkspace/xcuserdata/wangyang.xcuserdatad/UserInterfaceState.xcuserstate" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FunClub.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/FunClub.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FunClub.xcodeproj/xcuserdata/wangyang.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="$PROJECT_DIR$/FunClub.xcodeproj/xcuserdata/wangyang.xcuserdatad/xcschemes/xcschememanagement.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FunClub/AppDelegate.m" afterPath="$PROJECT_DIR$/FunClub/AppDelegate.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FunClub/Modules/Behaviours/EntrySetup/BaseFrameViewController.m" afterPath="$PROJECT_DIR$/FunClub/Modules/Behaviours/EntrySetup/BaseFrameViewController.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FunClub/Modules/Weibo Module/Weibo Index Page/Service/WeiboIndexService.h" afterPath="$PROJECT_DIR$/FunClub/Modules/Weibo Module/Weibo Index Page/Service/WeiboIndexService.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FunClub/Modules/Weibo Module/Weibo Index Page/Service/WeiboIndexService.m" afterPath="$PROJECT_DIR$/FunClub/Modules/Weibo Module/Weibo Index Page/Service/WeiboIndexService.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FunClub/Modules/Weibo Module/Weibo Index Page/UI Control/WeiboIndexCellNode.m" afterPath="$PROJECT_DIR$/FunClub/Modules/Weibo Module/Weibo Index Page/UI Control/WeiboIndexCellNode.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FunClub/Modules/Weibo Module/Weibo Index Page/View Model/WeiboListItemViewModel.h" afterPath="$PROJECT_DIR$/FunClub/Modules/Weibo Module/Weibo Index Page/View Model/WeiboListItemViewModel.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FunClub/Modules/Weibo Module/Weibo Index Page/View Model/WeiboListItemViewModel.m" afterPath="$PROJECT_DIR$/FunClub/Modules/Weibo Module/Weibo Index Page/View Model/WeiboListItemViewModel.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FunClub/Modules/Weibo Module/Weibo Index Page/WeiboIndexViewController.h" afterPath="$PROJECT_DIR$/FunClub/Modules/Weibo Module/Weibo Index Page/WeiboIndexViewController.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FunClub/Modules/Weibo Module/Weibo Index Page/WeiboIndexViewController.m" afterPath="$PROJECT_DIR$/FunClub/Modules/Weibo Module/Weibo Index Page/WeiboIndexViewController.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Podfile" afterPath="$PROJECT_DIR$/Podfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Podfile.lock" afterPath="$PROJECT_DIR$/Podfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/MJRefresh/MJRefresh/Base/MJRefreshBackFooter.m" afterPath="$PROJECT_DIR$/Pods/MJRefresh/MJRefresh/Base/MJRefreshBackFooter.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/MJRefresh/MJRefresh/Base/MJRefreshComponent.m" afterPath="$PROJECT_DIR$/Pods/MJRefresh/MJRefresh/Base/MJRefreshComponent.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/MJRefresh/MJRefresh/Base/MJRefreshFooter.m" afterPath="$PROJECT_DIR$/Pods/MJRefresh/MJRefresh/Base/MJRefreshFooter.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/MJRefresh/MJRefresh/Base/MJRefreshHeader.m" afterPath="$PROJECT_DIR$/Pods/MJRefresh/MJRefresh/Base/MJRefreshHeader.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/MJRefresh/MJRefresh/UIScrollView+MJExtension.m" afterPath="$PROJECT_DIR$/Pods/MJRefresh/MJRefresh/UIScrollView+MJExtension.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Manifest.lock" afterPath="$PROJECT_DIR$/Pods/Manifest.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/wangyang.xcuserdatad/xcschemes/MZAppearance.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/wangyang.xcuserdatad/xcschemes/MZAppearance.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/wangyang.xcuserdatad/xcschemes/MZFormSheetPresentationController.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/wangyang.xcuserdatad/xcschemes/MZFormSheetPresentationController.xcscheme" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/wangyang.xcuserdatad/xcschemes/Pods-FunClub.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/wangyang.xcuserdatad/xcschemes/Pods-FunClub.xcscheme" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/wangyang.xcuserdatad/xcschemes/ReactiveCocoa.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/wangyang.xcuserdatad/xcschemes/ReactiveCocoa.xcscheme" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/wangyang.xcuserdatad/xcschemes/Texture.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/wangyang.xcuserdatad/xcschemes/Texture.xcscheme" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/wangyang.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/wangyang.xcuserdatad/xcschemes/xcschememanagement.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/MJRefresh/Info.plist" afterPath="$PROJECT_DIR$/Pods/Target Support Files/MJRefresh/Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/MJRefresh/MJRefresh.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/MJRefresh/MJRefresh.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/MZAppearance/MZAppearance.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/MZAppearance/MZAppearance.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/MZFormSheetPresentationController/MZFormSheetPresentationController.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/MZFormSheetPresentationController/MZFormSheetPresentationController.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/PINCache/PINCache.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/PINCache/PINCache.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/PINOperation/PINOperation.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/PINOperation/PINOperation.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/PINRemoteImage/PINRemoteImage.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/PINRemoteImage/PINRemoteImage.xcconfig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-FunClub/Pods-FunClub-acknowledgements.markdown" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-FunClub/Pods-FunClub-acknowledgements.markdown" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-FunClub/Pods-FunClub-acknowledgements.plist" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-FunClub/Pods-FunClub-acknowledgements.plist" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-FunClub/Pods-FunClub-frameworks.sh" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-FunClub/Pods-FunClub-frameworks.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-FunClub/Pods-FunClub-resources.sh" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-FunClub/Pods-FunClub-resources.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-FunClub/Pods-FunClub.debug.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-FunClub/Pods-FunClub.debug.xcconfig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-FunClub/Pods-FunClub.release.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-FunClub/Pods-FunClub.release.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/ReactiveCocoa/ReactiveCocoa.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/ReactiveCocoa/ReactiveCocoa.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Texture/Texture.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Texture/Texture.xcconfig" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,8 +48,8 @@
       <file leaf-file-name="CommentListViewController.m" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FunClub/Modules/Weibo Module/Comment List Page/CommentListViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="34" column="28" lean-forward="true" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+            <state relative-caret-position="0">
+              <caret line="34" column="28" lean-forward="false" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
               <folding>
                 <element signature="e#95#132#0" expanded="true" />
               </folding>
@@ -51,21 +57,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CommentService.m" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CommentService.m" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FunClub/Modules/Weibo Module/Comment List Page/Service/CommentService.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+            <state relative-caret-position="-136">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CommentListItemViewModel.m" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Podfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Podfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommentListItemViewModel.m" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FunClub/Modules/Weibo Module/Comment List Page/View Model/CommentListItemViewModel.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="261">
+              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -74,8 +90,8 @@
       <file leaf-file-name="WeiboIndexCellNode.m" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FunClub/Modules/Weibo Module/Weibo Index Page/UI Control/WeiboIndexCellNode.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="156" column="1" lean-forward="true" selection-start-line="156" selection-start-column="1" selection-end-line="156" selection-end-column="1" />
+            <state relative-caret-position="4524">
+              <caret line="156" column="1" lean-forward="false" selection-start-line="156" selection-start-column="1" selection-end-line="156" selection-end-column="1" />
               <folding>
                 <element signature="e#131#161#0" expanded="true" />
               </folding>
@@ -86,28 +102,8 @@
       <file leaf-file-name="CommentListViewController.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FunClub/Modules/Weibo Module/Comment List Page/CommentListViewController.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
+            <state relative-caret-position="319">
               <caret line="11" column="46" lean-forward="false" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WeiboListItemViewModel.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FunClub/Modules/Weibo Module/Weibo Index Page/View Model/WeiboListItemViewModel.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="17" column="44" lean-forward="false" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WeiboListItemViewModel.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FunClub/Modules/Weibo Module/Weibo Index Page/View Model/WeiboListItemViewModel.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -116,7 +112,7 @@
       <file leaf-file-name="WeiboIndexService.m" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FunClub/Modules/Weibo Module/Weibo Index Page/Service/WeiboIndexService.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
+            <state relative-caret-position="2726">
               <caret line="94" column="37" lean-forward="false" selection-start-line="94" selection-start-column="37" selection-end-line="94" selection-end-column="37" />
               <folding />
             </state>
@@ -136,7 +132,7 @@
       <file leaf-file-name="CommentService.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FunClub/Modules/Weibo Module/Comment List Page/Service/CommentService.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
+            <state relative-caret-position="319">
               <caret line="11" column="44" lean-forward="false" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
               <folding />
             </state>
@@ -146,6 +142,7 @@
     </leaf>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -165,7 +162,6 @@
         <option value="$PROJECT_DIR$/FunClub/Modules/Weibo Module/Comment List Page/View Model/CommentListItemViewModel.m" />
         <option value="$PROJECT_DIR$/FunClub/Modules/Weibo Module/Comment List Page/View Model/CommentListItemViewModel.h" />
         <option value="$PROJECT_DIR$/FunClub/Modules/Weibo Module/Comment List Page/UI Control/CommentCellNode.m" />
-        <option value="$PROJECT_DIR$/Podfile" />
         <option value="$PROJECT_DIR$/FunClub/Modules/Weibo Module/Weibo Index Page/WeiboIndexViewController.m" />
         <option value="$PROJECT_DIR$/FunClub/Modules/Behaviours/EntrySetup/BaseFrameViewController.m" />
         <option value="$PROJECT_DIR$/FunClub/AppDelegate.m" />
@@ -176,6 +172,7 @@
         <option value="$PROJECT_DIR$/FunClub/Modules/Weibo Module/Comment List Page/CommentListViewController.m" />
         <option value="$PROJECT_DIR$/FunClub/Modules/Weibo Module/Weibo Index Page/UI Control/WeiboIndexCellNode.m" />
         <option value="$PROJECT_DIR$/FunClub/Modules/Weibo Module/Comment List Page/Service/CommentService.m" />
+        <option value="$PROJECT_DIR$/Podfile" />
       </list>
     </option>
   </component>
@@ -187,8 +184,8 @@
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="4" />
-    <option name="y" value="23" />
+    <option name="x" value="-52" />
+    <option name="y" value="298" />
     <option name="width" value="1916" />
     <option name="height" value="1057" />
   </component>
@@ -227,81 +224,7 @@
               <item name="" type="efc3779f:XcodeRootNode" />
               <item name="FunClub" type="1d218c8b:XcodeProjectNode" />
               <item name="FunClub" type="fcab9f18:XcodeViewNode" />
-              <item name="Components" type="fcab9f18:XcodeViewNode" />
-            </path>
-            <path>
-              <item name="" type="efc3779f:XcodeRootNode" />
-              <item name="FunClub" type="1d218c8b:XcodeProjectNode" />
-              <item name="FunClub" type="fcab9f18:XcodeViewNode" />
               <item name="Modules" type="fcab9f18:XcodeViewNode" />
-            </path>
-            <path>
-              <item name="" type="efc3779f:XcodeRootNode" />
-              <item name="FunClub" type="1d218c8b:XcodeProjectNode" />
-              <item name="FunClub" type="fcab9f18:XcodeViewNode" />
-              <item name="Modules" type="fcab9f18:XcodeViewNode" />
-              <item name="Weibo Module" type="fcab9f18:XcodeViewNode" />
-            </path>
-            <path>
-              <item name="" type="efc3779f:XcodeRootNode" />
-              <item name="FunClub" type="1d218c8b:XcodeProjectNode" />
-              <item name="FunClub" type="fcab9f18:XcodeViewNode" />
-              <item name="Modules" type="fcab9f18:XcodeViewNode" />
-              <item name="Weibo Module" type="fcab9f18:XcodeViewNode" />
-              <item name="Comment List Page" type="fcab9f18:XcodeViewNode" />
-            </path>
-            <path>
-              <item name="" type="efc3779f:XcodeRootNode" />
-              <item name="FunClub" type="1d218c8b:XcodeProjectNode" />
-              <item name="FunClub" type="fcab9f18:XcodeViewNode" />
-              <item name="Modules" type="fcab9f18:XcodeViewNode" />
-              <item name="Weibo Module" type="fcab9f18:XcodeViewNode" />
-              <item name="Comment List Page" type="fcab9f18:XcodeViewNode" />
-              <item name="Service" type="fcab9f18:XcodeViewNode" />
-            </path>
-            <path>
-              <item name="" type="efc3779f:XcodeRootNode" />
-              <item name="FunClub" type="1d218c8b:XcodeProjectNode" />
-              <item name="FunClub" type="fcab9f18:XcodeViewNode" />
-              <item name="Modules" type="fcab9f18:XcodeViewNode" />
-              <item name="Weibo Module" type="fcab9f18:XcodeViewNode" />
-              <item name="Comment List Page" type="fcab9f18:XcodeViewNode" />
-              <item name="UI Control" type="fcab9f18:XcodeViewNode" />
-            </path>
-            <path>
-              <item name="" type="efc3779f:XcodeRootNode" />
-              <item name="FunClub" type="1d218c8b:XcodeProjectNode" />
-              <item name="FunClub" type="fcab9f18:XcodeViewNode" />
-              <item name="Modules" type="fcab9f18:XcodeViewNode" />
-              <item name="Weibo Module" type="fcab9f18:XcodeViewNode" />
-              <item name="Comment List Page" type="fcab9f18:XcodeViewNode" />
-              <item name="View Model" type="fcab9f18:XcodeViewNode" />
-            </path>
-            <path>
-              <item name="" type="efc3779f:XcodeRootNode" />
-              <item name="FunClub" type="1d218c8b:XcodeProjectNode" />
-              <item name="FunClub" type="fcab9f18:XcodeViewNode" />
-              <item name="Modules" type="fcab9f18:XcodeViewNode" />
-              <item name="Weibo Module" type="fcab9f18:XcodeViewNode" />
-              <item name="Weibo Index Page" type="fcab9f18:XcodeViewNode" />
-            </path>
-            <path>
-              <item name="" type="efc3779f:XcodeRootNode" />
-              <item name="FunClub" type="1d218c8b:XcodeProjectNode" />
-              <item name="FunClub" type="fcab9f18:XcodeViewNode" />
-              <item name="Modules" type="fcab9f18:XcodeViewNode" />
-              <item name="Weibo Module" type="fcab9f18:XcodeViewNode" />
-              <item name="Weibo Index Page" type="fcab9f18:XcodeViewNode" />
-              <item name="Service" type="fcab9f18:XcodeViewNode" />
-            </path>
-            <path>
-              <item name="" type="efc3779f:XcodeRootNode" />
-              <item name="FunClub" type="1d218c8b:XcodeProjectNode" />
-              <item name="FunClub" type="fcab9f18:XcodeViewNode" />
-              <item name="Modules" type="fcab9f18:XcodeViewNode" />
-              <item name="Weibo Module" type="fcab9f18:XcodeViewNode" />
-              <item name="Weibo Index Page" type="fcab9f18:XcodeViewNode" />
-              <item name="UI Control" type="fcab9f18:XcodeViewNode" />
             </path>
             <path>
               <item name="" type="efc3779f:XcodeRootNode" />
@@ -350,26 +273,27 @@
       <updated>1509611040042</updated>
       <workItem from="1509611044299" duration="720000" />
       <workItem from="1509696013829" duration="7465000" />
+      <workItem from="1510215734482" duration="2349000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8185000" />
+    <option name="totallyTimeSpent" value="10538000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="23" width="1916" height="1057" extended-state="6" />
+    <frame x="3" y="23" width="1916" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21920668" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32994923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10761421" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10761421" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30862945" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -401,222 +325,38 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/FunClub/Components/Image Viewer/ImageViewerViewController.m">
+    <entry file="file://$PROJECT_DIR$/FunClub/Modules/Weibo Module/Comment List Page/CommentListViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="812">
-          <caret line="28" column="61" lean-forward="false" selection-start-line="28" selection-start-column="61" selection-end-line="28" selection-end-column="61" />
+        <state relative-caret-position="986">
+          <caret line="34" column="28" lean-forward="true" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
           <folding>
-            <element signature="e#143#180#0" expanded="true" />
+            <element signature="e#95#132#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FunClub/Components/Themes/ThemeManager.h">
+    <entry file="file://$PROJECT_DIR$/FunClub/Modules/Weibo Module/Comment List Page/View Model/CommentListItemViewModel.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="26" column="62" lean-forward="false" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FunClub/Components/Themes/ThemeManager.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FunClub/Components/Themes/ThemeManager.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="26" column="62" lean-forward="false" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FunClub/Components/Image Viewer/ImageViewerViewController.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="812">
-          <caret line="28" column="61" lean-forward="false" selection-start-line="28" selection-start-column="61" selection-end-line="28" selection-end-column="61" />
-          <folding>
-            <element signature="e#143#180#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FunClub/Components/Themes/ThemeManager.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="23" column="45" lean-forward="false" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pods/MJRefresh/MJRefresh/Base/MJRefreshHeader.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="17" column="59" lean-forward="false" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pods/MJRefresh/MJRefresh/Base/MJRefreshComponent.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="31" column="15" lean-forward="false" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pods/Texture/Source/Details/ASTraceEvent.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="35" column="46" lean-forward="false" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FunClub/Components/Router/Router.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FunClub/Components/Pagination Table ViewController/PaginationTableViewController.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-756">
+        <state relative-caret-position="348">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FunClub/Modules/Weibo Module/Weibo Index Page/UI Control/WeiboIndexCellNode.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4524">
+          <caret line="156" column="1" lean-forward="true" selection-start-line="156" selection-start-column="1" selection-end-line="156" selection-end-column="1" />
           <folding>
-            <element signature="e#95#136#0" expanded="false" />
+            <element signature="e#131#161#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FunClub/Components/Pagination Table ViewController/PaginationTableViewController.h">
+    <entry file="file://$PROJECT_DIR$/FunClub/Modules/Weibo Module/Comment List Page/CommentListViewController.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FunClub/Modules/Weibo Module/Weibo Index Page/UI Control/WeiboIndexCellNode.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="12" column="42" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FunClub/Modules/Weibo Module/Comment List Page/UI Control/CommentCellNode.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding>
-            <element signature="e#95#138#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FunClub/Modules/Weibo Module/Comment List Page/UI Control/CommentCellNode.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="19" column="38" lean-forward="false" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FunClub/Components/Router/Router.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FunClub/Components/Router/DXRouter.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-657">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FunClub/Modules/Weibo Module/Weibo Index Page/WeiboIndexViewController.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="10" column="67" lean-forward="false" selection-start-line="10" selection-start-column="67" selection-end-line="10" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FunClub/Modules/Weibo Module/Weibo Index Page/Service/WeiboIndexService.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Podfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/dispatch/once.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FunClub/Modules/Behaviours/EntrySetup/BaseFrameViewController.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FunClub/Modules/Behaviours/EntrySetup/BaseFrameViewController.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="e#141#176#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FunClub/Modules/Weibo Module/Weibo Index Page/WeiboIndexViewController.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="18" column="77" lean-forward="false" selection-start-line="18" selection-start-column="77" selection-end-line="18" selection-end-column="77" />
-          <folding>
-            <element signature="e#142#178#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FunClub/AppDelegate.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FunClub/Components/Router/DXRouter.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="112" column="0" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+          <caret line="11" column="46" lean-forward="false" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
           <folding />
         </state>
       </provider>
@@ -639,7 +379,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FunClub/Modules/Weibo Module/Weibo Index Page/Service/WeiboIndexService.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
+        <state relative-caret-position="2726">
           <caret line="94" column="37" lean-forward="false" selection-start-line="94" selection-start-column="37" selection-end-line="94" selection-end-column="37" />
           <folding />
         </state>
@@ -655,24 +395,230 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FunClub/Modules/Weibo Module/Comment List Page/Service/CommentService.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
+        <state relative-caret-position="319">
           <caret line="11" column="44" lean-forward="false" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FunClub/Modules/Weibo Module/Comment List Page/View Model/CommentListItemViewModel.m">
+    <entry file="file://$PROJECT_DIR$/FunClub/Modules/Weibo Module/Comment List Page/Service/CommentService.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FunClub/Components/Image Viewer/ImageViewerViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="812">
+          <caret line="28" column="61" lean-forward="false" selection-start-line="28" selection-start-column="61" selection-end-line="28" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FunClub/Components/Themes/ThemeManager.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="26" column="62" lean-forward="false" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FunClub/Components/Themes/ThemeManager.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FunClub/Components/Themes/ThemeManager.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="26" column="62" lean-forward="false" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FunClub/Components/Image Viewer/ImageViewerViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="812">
+          <caret line="28" column="61" lean-forward="false" selection-start-line="28" selection-start-column="61" selection-end-line="28" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FunClub/Components/Themes/ThemeManager.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="23" column="45" lean-forward="false" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pods/MJRefresh/MJRefresh/Base/MJRefreshHeader.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="17" column="59" lean-forward="false" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pods/MJRefresh/MJRefresh/Base/MJRefreshComponent.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="31" column="15" lean-forward="false" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pods/Texture/Source/Details/ASTraceEvent.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="35" column="46" lean-forward="false" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FunClub/Components/Router/Router.m" />
+    <entry file="file://$PROJECT_DIR$/FunClub/Components/Pagination Table ViewController/PaginationTableViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-756">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FunClub/Components/Pagination Table ViewController/PaginationTableViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FunClub/Modules/Weibo Module/Weibo Index Page/UI Control/WeiboIndexCellNode.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="12" column="42" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FunClub/Modules/Weibo Module/Comment List Page/UI Control/CommentCellNode.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding>
+            <element signature="e#95#138#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FunClub/Modules/Weibo Module/Comment List Page/UI Control/CommentCellNode.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="19" column="38" lean-forward="false" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FunClub/Components/Router/Router.h" />
+    <entry file="file://$PROJECT_DIR$/FunClub/Components/Router/DXRouter.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-657">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FunClub/Modules/Weibo Module/Weibo Index Page/WeiboIndexViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="67" lean-forward="false" selection-start-line="10" selection-start-column="67" selection-end-line="10" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FunClub/Modules/Weibo Module/Weibo Index Page/Service/WeiboIndexService.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/dispatch/once.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FunClub/Modules/Behaviours/EntrySetup/BaseFrameViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FunClub/Modules/Behaviours/EntrySetup/BaseFrameViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FunClub/Modules/Weibo Module/Weibo Index Page/WeiboIndexViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="18" column="77" lean-forward="false" selection-start-line="18" selection-start-column="77" selection-end-line="18" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FunClub/AppDelegate.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FunClub/Components/Router/DXRouter.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="112" column="0" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FunClub/Modules/Weibo Module/Weibo Index Page/View Model/WeiboListItemViewModel.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="17" column="44" lean-forward="false" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FunClub/Modules/Weibo Module/Weibo Index Page/View Model/WeiboListItemViewModel.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FunClub/Modules/Weibo Module/Weibo Index Page/Service/WeiboIndexService.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2726">
+          <caret line="94" column="37" lean-forward="false" selection-start-line="94" selection-start-column="37" selection-end-line="94" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FunClub/Modules/Weibo Module/Comment List Page/View Model/CommentListItemViewModel.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="47" lean-forward="false" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FunClub/Modules/Weibo Module/Comment List Page/Service/CommentService.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="11" column="44" lean-forward="false" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FunClub/Modules/Weibo Module/Weibo Index Page/UI Control/WeiboIndexCellNode.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="156" column="1" lean-forward="true" selection-start-line="156" selection-start-column="1" selection-end-line="156" selection-end-column="1" />
+        <state relative-caret-position="4524">
+          <caret line="156" column="1" lean-forward="false" selection-start-line="156" selection-start-column="1" selection-end-line="156" selection-end-column="1" />
           <folding>
             <element signature="e#131#161#0" expanded="true" />
           </folding>
@@ -681,8 +627,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FunClub/Modules/Weibo Module/Comment List Page/CommentListViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="34" column="28" lean-forward="true" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+        <state relative-caret-position="0">
+          <caret line="34" column="28" lean-forward="false" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
           <folding>
             <element signature="e#95#132#0" expanded="true" />
           </folding>
@@ -691,7 +637,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FunClub/Modules/Weibo Module/Comment List Page/CommentListViewController.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
+        <state relative-caret-position="319">
           <caret line="11" column="46" lean-forward="false" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
           <folding />
         </state>
@@ -699,8 +645,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FunClub/Modules/Weibo Module/Comment List Page/Service/CommentService.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        <state relative-caret-position="-136">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Podfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/ide/ide-scripting.scpt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FunClub/Modules/Weibo Module/Comment List Page/View Model/CommentListItemViewModel.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
           <folding />
         </state>
       </provider>

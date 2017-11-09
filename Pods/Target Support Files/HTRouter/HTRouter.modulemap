@@ -1,0 +1,6 @@
+framework module HTRouter {
+  umbrella header "HTRouter-umbrella.h"
+
+  export *
+  module * { export * }
+}

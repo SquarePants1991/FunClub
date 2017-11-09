@@ -7,7 +7,8 @@ target 'FunClub' do
 
   # Pods for FunClub
   pod "Texture"
-  pod "ReactiveCocoa", "~> 2.5.0”
+  pod "ReactiveCocoa", "~> 2.5.0"
   pod "MJRefresh"
   pod "MZFormSheetPresentationController"
+  pod "HTRouter", :git => 'git@github.com:SquarePants1991/HTRouter.git'
 end
