@@ -10,19 +10,36 @@
 #import <MJRefresh/MJRefresh.h>
 
 @interface PaginationTableViewController() <ASTableDelegate, ASTableDataSource>
-
+@property (assign, nonatomic) BOOL isLoaded;
 @end
 
 @implementation PaginationTableViewController
+
+- (instancetype)init
+{
+    _tableNode = [[ASTableNode alloc] init];
+    self = [super initWithNode:_tableNode];
+
+    if (self) {
+        _isLoaded = NO;
+        _tableNode.dataSource = self;
+        _tableNode.delegate = self;
+    }
+    return self;
+}
+
+- (void)loadView {
+    [super loadView];
+    [self refreshData];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
 
     _dataSource = [NSMutableArray new];
 
-    _tableNode = [[ASTableNode alloc] init];
-    _tableNode.delegate = self;
-    _tableNode.dataSource = self;
     _tableNode.leadingScreensForBatching = 1.0;
+
     [self.view addSubnode:_tableNode];
     _tableNode.backgroundColor = Theme.darkBackgroundColor;
     _tableNode.view.separatorStyle = UITableViewCellSeparatorStyleNone;
@@ -31,12 +48,8 @@
     _tableNode.view.mj_header = [MJRefreshNormalHeader headerWithRefreshingTarget:self refreshingAction:@selector(refreshData)];
 }
 
-- (void)viewWillLayoutSubviews {
-    [super viewWillLayoutSubviews];
-    _tableNode.frame = self.view.frame;
-}
-
 #pragma mark - Table Delegate & DataSource
+
 - (NSInteger)numberOfSectionsInTableNode:(ASTableNode *)tableNode {
     return 1;
 }
@@ -45,21 +58,34 @@
     return [_dataSource count];
 }
 
-- (BOOL)shouldBatchFetchForTableNode:(ASTableNode *)tableNode {
-    return YES;
-}
-
 - (void)tableNode:(ASTableNode *)tableNode willBeginBatchFetchWithContext:(ASBatchContext *)context {
-    [context beginBatchFetching];
-    [self fetchMoreData:context];
+    if (self.isLoaded) {
+        [context beginBatchFetching];
+        [self fetchMoreData:context];
+    } else {
+        [context beginBatchFetching];
+        [context completeBatchFetching:YES];
+    }
 }
 
 #pragma mark - Data Process
+- (void)refreshData {
+    @weakify(self);
+    [self refreshDataWithComplete:^(BOOL isSuccess) {
+        @strongify(self);
+        if (isSuccess) {
+            self.isLoaded = YES;
+        }
+    }];
+}
+
 - (void)fetchMoreData:(ASBatchContext *)context {
 
 }
 
-- (void)refreshData {
+- (void)refreshDataWithComplete:(RefreshCompleteHandler)completed {
 
 }
+
+
 @end

@@ -7,5 +7,11 @@
 
 
 @interface CommentListItemViewModel : NSObject
+@property (nonatomic, copy) NSString * nickname;
+@property (nonatomic, copy) NSString * avatarUrl;
 @property (nonatomic, copy) NSString * content;
+@property (nonatomic, assign) int likes;
+@property (nonatomic, assign) double timestamp;
+
+@property (nonatomic, copy, getter=parseTimestampToString) NSString * timestampString;
 @end

@@ -14,12 +14,14 @@
 + (ThemeManager *)shared;
 @property (strong, nonatomic) UIColor *inverseFontColor;
 @property (strong, nonatomic) UIColor *defaultFontColor;
+@property (strong, nonatomic) UIColor *nicknameFontColor;
 @property (strong, nonatomic) UIColor *darkFontColor;
 @property (strong, nonatomic) UIColor *lightFontColor;
 @property (strong, nonatomic) UIFont *defaultFont;
 @property (strong, nonatomic) UIFont *largeFont;
 @property (strong, nonatomic) UIFont *mediumFont;
 @property (strong, nonatomic) UIFont *smallFont;
+@property (strong, nonatomic) UIFont *exsmallFont;
 
 @property (strong, nonatomic) UIColor *borderColor;
 @property (strong, nonatomic) UIColor *lightBackgroundColor;

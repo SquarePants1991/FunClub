@@ -43,12 +43,10 @@
         
         _timeNode = [ASTextNode new];
         _timeNode.attributedText = [[NSAttributedString alloc] initWithString:viewModel.timeString attributes:@{NSFontAttributeName: Theme.smallFont, NSForegroundColorAttributeName: Theme.lightFontColor}];
-        _timeNode.layerBacked = YES;
         [self addSubnode:_timeNode];
         
         _titleNode = [ASTextNode new];
         _titleNode.attributedText = [[NSAttributedString alloc] initWithString:viewModel.title attributes:@{NSFontAttributeName: Theme.largeFont}];
-        _titleNode.layerBacked = YES;
         [self addSubnode:_titleNode];
         
         _imageNode = [ASNetworkImageNode new];
@@ -83,7 +81,6 @@
         [self addSubnode:_commentButtonNode];
         
         _seeCompleteImageButton = [ASButtonNode new];
-        _seeCompleteImageButton.style.flexGrow = 1.0;
         _seeCompleteImageButton.backgroundColor = Theme.darkMaskColor;
         _seeCompleteImageButton.style.minHeight = ASDimensionMake(37);
         [_seeCompleteImageButton setTitle:@"点击查看全图" withFont:Theme.mediumFont withColor:Theme.inverseFontColor forState:UIControlStateNormal];

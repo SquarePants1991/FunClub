@@ -5,6 +5,7 @@
 
 #import <AsyncDisplayKit/AsyncDisplayKit.h>
 
+typedef void(^RefreshCompleteHandler)(BOOL isSuccess);
 
 @interface PaginationTableViewController : ASViewController
 @property  (strong) NSMutableArray *dataSource;

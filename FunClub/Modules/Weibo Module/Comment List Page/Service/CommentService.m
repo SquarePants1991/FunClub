@@ -8,7 +8,7 @@
 
 const NSString * kCommentUrl = @"http://120.55.151.67/weibofun/comments_list.php?apiver=20100&fid=%lld&uid=%lld&category=weibo_pics&page=%d&page_size=%d&max_cid=-1&get_post=0&platform=iphone&appver=2.2.2&buildver=2020203&udid=F795A776-18F6-4FF9-AF3C-303DB0A3DC08&sysver=10.2.1&wf_uid=56743912";
 
-#define PageSize 15
+#define PageSize 20
 
 @implementation CommentService
 - (instancetype)init
@@ -75,6 +75,10 @@ const NSString * kCommentUrl = @"http://120.55.151.67/weibofun/comments_list.php
     for (NSDictionary * item in items) {
         CommentListItemViewModel *viewModel = [CommentListItemViewModel new];
         [viewModel setContent:item[@"content"]];
+        [viewModel setNickname:item[@"author_name"]];
+        [viewModel setTimestamp:[item[@"created_time"] doubleValue]];
+        [viewModel setAvatarUrl:item[@"author_avatar"]];
+        [viewModel setLikes:[item[@"likes"] intValue]];
         [viewModels addObject:viewModel];
     }
     return viewModels;

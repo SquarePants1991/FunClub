@@ -23,16 +23,20 @@
 
 DXRouterInitPage()
 
-- (void)viewWillAppear:(BOOL)animated {
-    [super viewWillAppear:animated];
-    [self.navigationController setNavigationBarHidden:NO animated:YES];
-}
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
+- (void)loadView {
     _service = [CommentService new];
     _service.postID = self.postID;
     _service.uid = self.uid;
+
+    [super loadView];
+
+    [self.tableNode setAllowsSelection:NO];
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    [self.navigationController setNavigationBarHidden:NO animated:YES];
 }
 
 - (ASCellNodeBlock)tableNode:(ASTableNode *)tableNode nodeBlockForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -54,14 +58,16 @@ DXRouterInitPage()
         }
         dispatch_async(dispatch_get_main_queue(), ^{
             [self.tableNode insertRowsAtIndexPaths:paths withRowAnimation:UITableViewRowAnimationNone];
-            [context completeBatchFetching:YES];
+            if (context) {
+                [context completeBatchFetching:YES];
+            }
         });
     } error:^(NSError *error) {
 
     }];
 }
 
-- (void)refreshData {
+- (void)refreshDataWithComplete:(RefreshCompleteHandler)completed {
     @weakify(self);
     [[_service refreshList] subscribeNext:^(id x) {
         @strongify(self);
@@ -69,9 +75,10 @@ DXRouterInitPage()
         dispatch_async(dispatch_get_main_queue(), ^{
             [self.tableNode reloadData];
             [self.tableNode.view.mj_header endRefreshing];
+            completed(YES);
         });
     } error:^(NSError *error) {
-
+        completed(NO);
     }];
 }
 @end
