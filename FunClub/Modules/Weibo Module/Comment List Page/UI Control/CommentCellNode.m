@@ -83,8 +83,8 @@
 
     ASWrapperLayoutSpec *container = [ASWrapperLayoutSpec wrapperWithLayoutElements:@[contentBGSpec, _avatarInsetSpec]];
 
-    ASInsetLayoutSpec *insetLayoutSpec = [ASInsetLayoutSpec insetLayoutSpecWithInsets:UIEdgeInsetsMake(26, 28, 0, 13) child:container];
-    ASInsetLayoutSpec *_leftBorderSpec = [ASInsetLayoutSpec insetLayoutSpecWithInsets:UIEdgeInsetsMake(0, 28, 0, INFINITY) child:_sideBorderNode];
+    ASInsetLayoutSpec *insetLayoutSpec = [ASInsetLayoutSpec insetLayoutSpecWithInsets:UIEdgeInsetsMake(26, 25, 0, 10) child:container];
+    ASInsetLayoutSpec *_leftBorderSpec = [ASInsetLayoutSpec insetLayoutSpecWithInsets:UIEdgeInsetsMake(0, 25, 0, INFINITY) child:_sideBorderNode];
     return [ASOverlayLayoutSpec overlayLayoutSpecWithChild:insetLayoutSpec overlay:_leftBorderSpec];
 }
 @end

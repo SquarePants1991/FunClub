@@ -6,7 +6,7 @@ target 'FunClub' do
   use_frameworks!
 
   # Pods for FunClub
-  pod "Texture"
+  pod "Texture", :git => 'git@github.com:SquarePants1991/Texture.git'
   pod "ReactiveCocoa", "~> 2.5.0"
   pod "MJRefresh"
   pod "MZFormSheetPresentationController"

@@ -84,7 +84,7 @@ const NSString *kWeiboUrl = @"http://120.55.151.67/weibofun/weibo_list.php?apive
         WeiboListItemViewModel *viewModel = [WeiboListItemViewModel new];
 
         [viewModel setTime: [item[@"update_time"] doubleValue]];
-        [viewModel setImageUrl:item[@"wpic_large"]];
+        [viewModel setImageUrl:item[@"wpic_middle"]];
         [viewModel setTitle:item[@"wbody"]];
         if (![item[@"uid"] isKindOfClass:[NSNull class]]) {
             [viewModel setUid:[item[@"uid"] longLongValue]];

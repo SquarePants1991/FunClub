@@ -5,20 +5,20 @@ PODS:
   - MZAppearance (1.1.6)
   - MZFormSheetPresentationController (2.4.3):
     - MZAppearance
-  - PINCache (3.0.1-beta.5):
-    - PINCache/Arc-exception-safe (= 3.0.1-beta.5)
-    - PINCache/Core (= 3.0.1-beta.5)
-  - PINCache/Arc-exception-safe (3.0.1-beta.5):
+  - PINCache (3.0.1-beta.6):
+    - PINCache/Arc-exception-safe (= 3.0.1-beta.6)
+    - PINCache/Core (= 3.0.1-beta.6)
+  - PINCache/Arc-exception-safe (3.0.1-beta.6):
     - PINCache/Core
-  - PINCache/Core (3.0.1-beta.5):
-    - PINOperation (= 1.0.3)
-  - PINOperation (1.0.3)
-  - PINRemoteImage/Core (3.0.0-beta.12):
+  - PINCache/Core (3.0.1-beta.6):
+    - PINOperation (~> 1.1.0)
+  - PINOperation (1.1)
+  - PINRemoteImage/Core (3.0.0-beta.13):
     - PINOperation
-  - PINRemoteImage/iOS (3.0.0-beta.12):
+  - PINRemoteImage/iOS (3.0.0-beta.13):
     - PINRemoteImage/Core
-  - PINRemoteImage/PINCache (3.0.0-beta.12):
-    - PINCache (= 3.0.1-beta.5)
+  - PINRemoteImage/PINCache (3.0.0-beta.13):
+    - PINCache (= 3.0.1-beta.6)
     - PINRemoteImage/Core
   - ReactiveCocoa (2.5):
     - ReactiveCocoa/UI (= 2.5)
@@ -27,11 +27,11 @@ PODS:
   - ReactiveCocoa/no-arc (2.5)
   - ReactiveCocoa/UI (2.5):
     - ReactiveCocoa/Core
-  - Texture (2.5.1):
-    - Texture/PINRemoteImage (= 2.5.1)
-  - Texture/Core (2.5.1)
-  - Texture/PINRemoteImage (2.5.1):
-    - PINRemoteImage/iOS (= 3.0.0-beta.12)
+  - Texture (2.6):
+    - Texture/PINRemoteImage (= 2.6)
+  - Texture/Core (2.6)
+  - Texture/PINRemoteImage (2.6):
+    - PINRemoteImage/iOS (= 3.0.0-beta.13)
     - PINRemoteImage/PINCache
     - Texture/Core
 
@@ -40,28 +40,33 @@ DEPENDENCIES:
   - MJRefresh
   - MZFormSheetPresentationController
   - ReactiveCocoa (~> 2.5.0)
-  - Texture
+  - Texture (from `git@github.com:SquarePants1991/Texture.git`)
 
 EXTERNAL SOURCES:
   HTRouter:
     :git: git@github.com:SquarePants1991/HTRouter.git
+  Texture:
+    :git: git@github.com:SquarePants1991/Texture.git
 
 CHECKOUT OPTIONS:
   HTRouter:
     :commit: 7e2da67f7717922c6a56e89ab03fe8d974e1001a
     :git: git@github.com:SquarePants1991/HTRouter.git
+  Texture:
+    :commit: b08cefc89ed5d158642e70ab24c2b730156bccb0
+    :git: git@github.com:SquarePants1991/Texture.git
 
 SPEC CHECKSUMS:
   HTRouter: a5cbce570e01325be662509e05eb9832a21b11cb
   MJRefresh: 9af70f5f9327a2cf87f0fb5929f35fcc2fa638ea
   MZAppearance: 0c06d3fa9cc55142f1da14bc8631fbe8fd6e19d5
   MZFormSheetPresentationController: fbfdbad31884f16fac17fbe3c44c168306cc1095
-  PINCache: 98e7b1ef782824ad231ade51987c218b758c30d8
-  PINOperation: ac23db44796d4a564ecf9b5ea7163510f579b71d
-  PINRemoteImage: 0cefe720c2612960bd360710efbd6c73a1991d5f
+  PINCache: d195fdba255283f7e9900a55e3cced377f431f9b
+  PINOperation: 7f042fa6df5b606deb4bd5997654cf7033d5be1d
+  PINRemoteImage: d6d51c5d2adda55f1ce30c96e850b6c4ebd2856a
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
-  Texture: c3f06e344aa091667b7a56002e525cde674d021a
+  Texture: 7249074582daf75e524e59df5428b66b8e8db0e4
 
-PODFILE CHECKSUM: caf16d9bfe78cd6a8a06ef40596b063344c8241d
+PODFILE CHECKSUM: 661d7778ebb9994a40b03c7071cdf61cced01f07
 
 COCOAPODS: 1.4.0.beta.2

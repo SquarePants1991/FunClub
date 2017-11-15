@@ -10,15 +10,16 @@
 #import "ThemeManager.h"
 #import "ImageViewer.h"
 #import "DXRouter.h"
+#import "ASProgressNode.h"
 
 @interface WeiboIndexCellNode() <ASNetworkImageNodeDelegate> {
     ASTextNode *_timeNode;
     ASTextNode *_titleNode;
     ASNetworkImageNode *_imageNode;
+    ASProgressNode *_imageProgressNode;
     ASTextNode *_likeCountNode;
     ASButtonNode *_likeButtonNode;
     ASButtonNode *_commentButtonNode;
-    ASRatioLayoutSpec *_imageNodeSpec;
     
     ASDisplayNode *_rootBgView;
     ASButtonNode *_seeCompleteImageButton;
@@ -48,15 +49,21 @@
         _titleNode = [ASTextNode new];
         _titleNode.attributedText = [[NSAttributedString alloc] initWithString:viewModel.title attributes:@{NSFontAttributeName: Theme.largeFont}];
         [self addSubnode:_titleNode];
-        
+
         _imageNode = [ASNetworkImageNode new];
-        _imageNode.shouldRenderProgressImages = YES;
+        _imageNode.backgroundColor = Theme.darkBackgroundColor;
         _imageNode.delegate = self;
         [_imageNode setURL:[NSURL URLWithString:viewModel.imageUrl]];
         _imageNode.contentMode = UIViewContentModeScaleToFill;
         [self addSubnode:_imageNode];
         [_imageNode addTarget:self action:@selector(imageTapped:) forControlEvents:ASControlNodeEventTouchUpInside];
-        
+
+        _imageProgressNode = [ASProgressNode new];
+        _imageProgressNode.backgroundColor = Theme.darkBackgroundColor;
+        _imageProgressNode.progressBarColor = [Theme.deepDarkBackgroundColor colorWithAlphaComponent:0.14];
+        [self addSubnode:_imageProgressNode];
+
+
         _likeCountNode = [ASTextNode new];
         NSString *displayString = [NSString stringWithFormat:@"赞 (%d)", viewModel.likesCount];
         _likeCountNode.attributedText = [[NSAttributedString alloc] initWithString:displayString attributes:@{NSFontAttributeName: Theme.mediumFont, NSForegroundColorAttributeName: Theme.defaultFontColor}];
@@ -123,11 +130,12 @@
         ASOverlayLayoutSpec *wrapperSpec = [ASOverlayLayoutSpec overlayLayoutSpecWithChild:imageSpec overlay:_newImageSpec];
         imageSpec = wrapperSpec;
     }
-    
+
+    ASOverlayLayoutSpec *progressOverlapSpec = [ASOverlayLayoutSpec overlayLayoutSpecWithChild:imageSpec overlay:_imageProgressNode];
     
     ASStackLayoutSpec *verticalStack  = [ASStackLayoutSpec verticalStackLayoutSpec];
     verticalStack.spacing = 13;
-    [verticalStack setChildren:@[ _timeNode, _titleNode, imageSpec, buttonsSpec]];
+    [verticalStack setChildren:@[ _timeNode, _titleNode, progressOverlapSpec, buttonsSpec]];
     
     ASInsetLayoutSpec *insetContentSpec = [ASInsetLayoutSpec insetLayoutSpecWithInsets:UIEdgeInsetsMake(23, 23, 23, 23) child:verticalStack];
         ASInsetLayoutSpec *insetBgSpec = [ASInsetLayoutSpec insetLayoutSpecWithInsets:UIEdgeInsetsMake(10, 10, 10, 10) child:_rootBgView];
@@ -147,6 +155,11 @@
             });
         };
     }
+    _imageProgressNode.hidden = YES;
+}
+
+- (void)imageNode:(ASNetworkImageNode *)imageNode progress:(CGFloat)progress {
+    [_imageProgressNode setProgress:progress];
 }
 
 - (void)commentButtonTapped:(id)sender {
