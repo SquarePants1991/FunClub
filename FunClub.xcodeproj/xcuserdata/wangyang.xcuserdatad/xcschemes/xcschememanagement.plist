@@ -12,25 +12,7 @@
 		<key>FunClubTests.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>15</integer>
-		</dict>
-	</dict>
-	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>D3652D341FBED74500AC0E37</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>D3652D441FBEECA000AC0E37</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>D3FECAF61FA9C961006A2D6F</key>
-		<dict>
-			<key>primary</key>
-			<true/>
+			<integer>1</integer>
 		</dict>
 	</dict>
 </dict>
