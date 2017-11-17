@@ -1,4 +1,8 @@
 PODS:
+  - Expecta (1.0.6)
+  - FMDB (2.7.2):
+    - FMDB/standard (= 2.7.2)
+  - FMDB/standard (2.7.2)
   - HTRouter (0.1.0):
     - MZFormSheetPresentationController (~> 2.4.2)
   - MJRefresh (3.1.15)
@@ -27,6 +31,7 @@ PODS:
   - ReactiveCocoa/no-arc (2.5)
   - ReactiveCocoa/UI (2.5):
     - ReactiveCocoa/Core
+  - Specta (1.0.7)
   - Texture (2.6):
     - Texture/PINRemoteImage (= 2.6)
   - Texture/Core (2.6)
@@ -36,10 +41,13 @@ PODS:
     - Texture/Core
 
 DEPENDENCIES:
+  - Expecta (~> 1.0)
+  - FMDB
   - HTRouter (from `git@github.com:SquarePants1991/HTRouter.git`)
   - MJRefresh
   - MZFormSheetPresentationController
   - ReactiveCocoa (~> 2.5.0)
+  - Specta
   - Texture (from `git@github.com:SquarePants1991/Texture.git`)
 
 EXTERNAL SOURCES:
@@ -57,6 +65,8 @@ CHECKOUT OPTIONS:
     :git: git@github.com:SquarePants1991/Texture.git
 
 SPEC CHECKSUMS:
+  Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
+  FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
   HTRouter: a5cbce570e01325be662509e05eb9832a21b11cb
   MJRefresh: 9af70f5f9327a2cf87f0fb5929f35fcc2fa638ea
   MZAppearance: 0c06d3fa9cc55142f1da14bc8631fbe8fd6e19d5
@@ -65,8 +75,9 @@ SPEC CHECKSUMS:
   PINOperation: 7f042fa6df5b606deb4bd5997654cf7033d5be1d
   PINRemoteImage: d6d51c5d2adda55f1ce30c96e850b6c4ebd2856a
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
   Texture: 7249074582daf75e524e59df5428b66b8e8db0e4
 
-PODFILE CHECKSUM: 661d7778ebb9994a40b03c7071cdf61cced01f07
+PODFILE CHECKSUM: 7f13f8c687f4b6fd9b2578ce7ebfcc255dcfd874
 
 COCOAPODS: 1.4.0.beta.2

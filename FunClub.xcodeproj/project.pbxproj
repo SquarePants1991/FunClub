@@ -17,12 +17,15 @@
 		16815D723C2E67D101C62AF9 /* DXRouterUrlHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1681560DDF17ADA1802BD809 /* DXRouterUrlHandler.m */; };
 		16815DB8EF9F25E002342002 /* PaginationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16815BD6268E310A4CF4C798 /* PaginationTableViewController.m */; };
 		16815DD7EB111D8D13DD8A15 /* UIButton+DXRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 168155C7831994A9FF478A50 /* UIButton+DXRouter.m */; };
+		16815DF09A6AC52BC870B14A /* HTCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1681540B391118D512ED1326 /* HTCache.m */; };
 		16815DF6A5C56882A705671B /* CommentService.m in Sources */ = {isa = PBXBuildFile; fileRef = 168150E637A5A29C40A6A34C /* CommentService.m */; };
 		3D99191C1FAA186400BCE718 /* WeiboIndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D99191B1FAA186400BCE718 /* WeiboIndexViewController.m */; };
 		3D9919221FAA194B00BCE718 /* BaseFrameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9919211FAA194B00BCE718 /* BaseFrameViewController.m */; };
 		3D9919271FAA1D3E00BCE718 /* WeiboIndexService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9919261FAA1D3E00BCE718 /* WeiboIndexService.m */; };
 		3D99192B1FAA1DF500BCE718 /* WeiboListItemViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D99192A1FAA1DF500BCE718 /* WeiboListItemViewModel.m */; };
 		6D35AA22C00F4B36B34B9A2E /* Pods_FunClub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD4CB4108532D55680030025 /* Pods_FunClub.framework */; };
+		D3652D481FBEECA000AC0E37 /* FunClubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3652D471FBEECA000AC0E37 /* FunClubTests.m */; };
+		D3652D511FBEF07500AC0E37 /* HTCacheTable.m in Sources */ = {isa = PBXBuildFile; fileRef = D3652D501FBEF07400AC0E37 /* HTCacheTable.m */; };
 		D3FECAFC1FA9C961006A2D6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FECAFB1FA9C961006A2D6F /* AppDelegate.m */; };
 		D3FECB021FA9C961006A2D6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3FECB001FA9C961006A2D6F /* Main.storyboard */; };
 		D3FECB041FA9C961006A2D6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3FECB031FA9C961006A2D6F /* Assets.xcassets */; };
@@ -35,12 +38,24 @@
 		D3FECB211FAAFF44006A2D6F /* ImageViewerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FECB201FAAFF44006A2D6F /* ImageViewerViewController.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D3652D4A1FBEECA000AC0E37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3FECAEF1FA9C961006A2D6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3FECAF61FA9C961006A2D6F;
+			remoteInfo = FunClub;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		1681500EB62F73CDCD072146 /* HTCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTCache.h; sourceTree = "<group>"; };
 		168150E637A5A29C40A6A34C /* CommentService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentService.m; sourceTree = "<group>"; };
 		168151EA6639BC05A895E3C7 /* CommentListItemViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentListItemViewModel.m; sourceTree = "<group>"; };
 		168152AFA67A92FE3F4E83B4 /* CommentCellNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentCellNode.m; sourceTree = "<group>"; };
 		168152D1385764425A84E5CA /* DXRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXRouter.m; sourceTree = "<group>"; };
 		168153AEA5FEBCC40748AFE0 /* ASProgressNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASProgressNode.h; sourceTree = "<group>"; };
+		1681540B391118D512ED1326 /* HTCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTCache.m; sourceTree = "<group>"; };
 		168154A5FB94F3748165704D /* DXRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXRouter.h; sourceTree = "<group>"; };
 		168154DEC9532901A1D4D833 /* ASProgressLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASProgressLayer.m; sourceTree = "<group>"; };
 		16815531AC0B3CB0EC49A5BE /* DXNotExistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXNotExistViewController.h; sourceTree = "<group>"; };
@@ -61,6 +76,7 @@
 		16815D11498F730A09EF165A /* PaginationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaginationTableViewController.h; sourceTree = "<group>"; };
 		16815DB5B3C2AED4DC87EAEC /* ASProgressLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASProgressLayer.h; sourceTree = "<group>"; };
 		16815EA9CAC397E25A8B5999 /* ASProgressNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASProgressNode.m; sourceTree = "<group>"; };
+		339396AEFF2EF7CE545A19F0 /* Pods_FunClubTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunClubTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D99191A1FAA186400BCE718 /* WeiboIndexViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeiboIndexViewController.h; sourceTree = "<group>"; };
 		3D99191B1FAA186400BCE718 /* WeiboIndexViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeiboIndexViewController.m; sourceTree = "<group>"; };
 		3D9919201FAA194B00BCE718 /* BaseFrameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseFrameViewController.h; sourceTree = "<group>"; };
@@ -70,6 +86,15 @@
 		3D9919291FAA1DF500BCE718 /* WeiboListItemViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeiboListItemViewModel.h; sourceTree = "<group>"; };
 		3D99192A1FAA1DF500BCE718 /* WeiboListItemViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeiboListItemViewModel.m; sourceTree = "<group>"; };
 		5779E97A943244946E5694DD /* Pods-FunClub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunClub.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FunClub/Pods-FunClub.debug.xcconfig"; sourceTree = "<group>"; };
+		57D40A8740A71085EB6DA0B4 /* Pods-FunClub-FunClubTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunClub-FunClubTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FunClub-FunClubTests/Pods-FunClub-FunClubTests.release.xcconfig"; sourceTree = "<group>"; };
+		62FBAC2F10A4D060ED346067 /* Pods-FunClub-FunClubTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunClub-FunClubTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FunClub-FunClubTests/Pods-FunClub-FunClubTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C56EB11ACB34884F84B4300A /* Pods_FunClub_FunClubTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunClub_FunClubTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D21500F5FA6D1ABC1C39BE1C /* Pods-FunClubTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunClubTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FunClubTests/Pods-FunClubTests.release.xcconfig"; sourceTree = "<group>"; };
+		D3652D451FBEECA000AC0E37 /* FunClubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunClubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3652D471FBEECA000AC0E37 /* FunClubTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FunClubTests.m; sourceTree = "<group>"; };
+		D3652D491FBEECA000AC0E37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3652D4F1FBEF07400AC0E37 /* HTCacheTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTCacheTable.h; sourceTree = "<group>"; };
+		D3652D501FBEF07400AC0E37 /* HTCacheTable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTCacheTable.m; sourceTree = "<group>"; };
 		D3FECAF71FA9C961006A2D6F /* FunClub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunClub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3FECAFA1FA9C961006A2D6F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D3FECAFB1FA9C961006A2D6F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -88,10 +113,18 @@
 		D3FECB1F1FAAFF44006A2D6F /* ImageViewerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageViewerViewController.h; sourceTree = "<group>"; };
 		D3FECB201FAAFF44006A2D6F /* ImageViewerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageViewerViewController.m; sourceTree = "<group>"; };
 		D4F833AE8C098C86ED0FA4D2 /* Pods-FunClub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunClub.release.xcconfig"; path = "Pods/Target Support Files/Pods-FunClub/Pods-FunClub.release.xcconfig"; sourceTree = "<group>"; };
+		E4DBEAFFA0AF8CF139153350 /* Pods-FunClubTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunClubTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FunClubTests/Pods-FunClubTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FD4CB4108532D55680030025 /* Pods_FunClub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunClub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D3652D421FBEECA000AC0E37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D3FECAF41FA9C961006A2D6F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -110,6 +143,17 @@
 				1681581800F32CC528606478 /* CommentService.h */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		1681509E8F69DC306D5137BD /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				1681540B391118D512ED1326 /* HTCache.m */,
+				1681500EB62F73CDCD072146 /* HTCache.h */,
+				D3652D4F1FBEF07400AC0E37 /* HTCacheTable.h */,
+				D3652D501FBEF07400AC0E37 /* HTCacheTable.m */,
+			);
+			path = Cache;
 			sourceTree = "<group>";
 		};
 		1681553E9A069C22F2679C46 /* Router */ = {
@@ -184,6 +228,8 @@
 			isa = PBXGroup;
 			children = (
 				FD4CB4108532D55680030025 /* Pods_FunClub.framework */,
+				339396AEFF2EF7CE545A19F0 /* Pods_FunClubTests.framework */,
+				C56EB11ACB34884F84B4300A /* Pods_FunClub_FunClubTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -268,14 +314,28 @@
 			children = (
 				5779E97A943244946E5694DD /* Pods-FunClub.debug.xcconfig */,
 				D4F833AE8C098C86ED0FA4D2 /* Pods-FunClub.release.xcconfig */,
+				E4DBEAFFA0AF8CF139153350 /* Pods-FunClubTests.debug.xcconfig */,
+				D21500F5FA6D1ABC1C39BE1C /* Pods-FunClubTests.release.xcconfig */,
+				62FBAC2F10A4D060ED346067 /* Pods-FunClub-FunClubTests.debug.xcconfig */,
+				57D40A8740A71085EB6DA0B4 /* Pods-FunClub-FunClubTests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		D3652D461FBEECA000AC0E37 /* FunClubTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3652D471FBEECA000AC0E37 /* FunClubTests.m */,
+				D3652D491FBEECA000AC0E37 /* Info.plist */,
+			);
+			path = FunClubTests;
 			sourceTree = "<group>";
 		};
 		D3FECAEE1FA9C961006A2D6F = {
 			isa = PBXGroup;
 			children = (
 				D3FECAF91FA9C961006A2D6F /* FunClub */,
+				D3652D461FBEECA000AC0E37 /* FunClubTests */,
 				D3FECAF81FA9C961006A2D6F /* Products */,
 				C4E82B2F03CE0885B2741D98 /* Pods */,
 				1720479C830CE509E2339A00 /* Frameworks */,
@@ -286,6 +346,7 @@
 			isa = PBXGroup;
 			children = (
 				D3FECAF71FA9C961006A2D6F /* FunClub.app */,
+				D3652D451FBEECA000AC0E37 /* FunClubTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -314,6 +375,7 @@
 				D3FECB161FAAE99A006A2D6F /* Themes */,
 				1681553E9A069C22F2679C46 /* Router */,
 				16815BFE16080DDFA1DBEC38 /* Pagination Table ViewController */,
+				1681509E8F69DC306D5137BD /* Cache */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -341,6 +403,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D3652D441FBEECA000AC0E37 /* FunClubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3652D4C1FBEECA000AC0E37 /* Build configuration list for PBXNativeTarget "FunClubTests" */;
+			buildPhases = (
+				D3652D411FBEECA000AC0E37 /* Sources */,
+				D3652D421FBEECA000AC0E37 /* Frameworks */,
+				D3652D431FBEECA000AC0E37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3652D4B1FBEECA000AC0E37 /* PBXTargetDependency */,
+			);
+			name = FunClubTests;
+			productName = FunClubTests;
+			productReference = D3652D451FBEECA000AC0E37 /* FunClubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		D3FECAF61FA9C961006A2D6F /* FunClub */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3FECB0D1FA9C961006A2D6F /* Build configuration list for PBXNativeTarget "FunClub" */;
@@ -370,6 +450,11 @@
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = ocean;
 				TargetAttributes = {
+					D3652D441FBEECA000AC0E37 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D3FECAF61FA9C961006A2D6F;
+					};
 					D3FECAF61FA9C961006A2D6F = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
@@ -390,11 +475,19 @@
 			projectRoot = "";
 			targets = (
 				D3FECAF61FA9C961006A2D6F /* FunClub */,
+				D3652D441FBEECA000AC0E37 /* FunClubTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D3652D431FBEECA000AC0E37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D3FECAF51FA9C961006A2D6F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -416,6 +509,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-FunClub/Pods-FunClub-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
 				"${BUILT_PRODUCTS_DIR}/HTRouter/HTRouter.framework",
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/MZAppearance/MZAppearance.framework",
@@ -428,6 +522,7 @@
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HTRouter.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MZAppearance.framework",
@@ -479,6 +574,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D3652D411FBEECA000AC0E37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3652D481FBEECA000AC0E37 /* FunClubTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D3FECAF31FA9C961006A2D6F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -493,6 +596,7 @@
 				3D9919221FAA194B00BCE718 /* BaseFrameViewController.m in Sources */,
 				3D9919271FAA1D3E00BCE718 /* WeiboIndexService.m in Sources */,
 				D3FECB191FAAE9BE006A2D6F /* ThemeManager.m in Sources */,
+				D3652D511FBEF07500AC0E37 /* HTCacheTable.m in Sources */,
 				168156E7309D1878ABB0C87C /* CommentListViewController.m in Sources */,
 				16815DB8EF9F25E002342002 /* PaginationTableViewController.m in Sources */,
 				16815DF6A5C56882A705671B /* CommentService.m in Sources */,
@@ -504,10 +608,19 @@
 				16815DD7EB111D8D13DD8A15 /* UIButton+DXRouter.m in Sources */,
 				16815A46844ED1BBA8F2AD46 /* ASProgressNode.m in Sources */,
 				168159F0D7FEB6B77DCB8153 /* ASProgressLayer.m in Sources */,
+				16815DF09A6AC52BC870B14A /* HTCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3652D4B1FBEECA000AC0E37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3FECAF61FA9C961006A2D6F /* FunClub */;
+			targetProxy = D3652D4A1FBEECA000AC0E37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D3FECB001FA9C961006A2D6F /* Main.storyboard */ = {
@@ -529,6 +642,36 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D3652D4D1FBEECA000AC0E37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P48344HVQL;
+				INFOPLIST_FILE = FunClubTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.ocean.FunClubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunClub.app/FunClub";
+			};
+			name = Debug;
+		};
+		D3652D4E1FBEECA000AC0E37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P48344HVQL;
+				INFOPLIST_FILE = FunClubTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.ocean.FunClubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunClub.app/FunClub";
+			};
+			name = Release;
+		};
 		D3FECB0B1FA9C961006A2D6F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -668,6 +811,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D3652D4C1FBEECA000AC0E37 /* Build configuration list for PBXNativeTarget "FunClubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3652D4D1FBEECA000AC0E37 /* Debug */,
+				D3652D4E1FBEECA000AC0E37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D3FECAF21FA9C961006A2D6F /* Build configuration list for PBXProject "FunClub" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
