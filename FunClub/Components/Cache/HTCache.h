@@ -5,6 +5,8 @@
 
 #import <Foundation/Foundation.h>
 
+typedef void(^HTCacheExecuteSqlCompletedHandler)(NSDictionary *resultSets);
+typedef void(^HTCacheExecuteQueryCompletedHandler)(NSArray *resultSets);
 
 @interface HTCache : NSObject
 + (HTCache *)standardCache;
@@ -12,4 +14,7 @@
 /// 缓存机制是否工作正常
 /// @return
 - (BOOL)isValid;
+
+- (BOOL)executeSql:(NSString *)sql completed:(HTCacheExecuteSqlCompletedHandler)completed;
+- (BOOL)executeQuery:(NSString *)sql completed:(HTCacheExecuteQueryCompletedHandler)completed;
 @end

@@ -4,6 +4,8 @@
 //
 
 #import "HTCache.h"
+#import "HTCacheTable.h"
+
 #import <FMDB/FMDB.h>
 
 const NSString *kStandardCacheName = @"HTStandardCacheDatabase";
@@ -56,7 +58,26 @@ const NSString *kStandardCacheName = @"HTStandardCacheDatabase";
     }
 }
 
-- (void)createTable:()
+- (BOOL)executeSql:(NSString *)sql completed:(HTCacheExecuteSqlCompletedHandler)completed {
+    return [_database executeStatements:sql withResultBlock:^int(NSDictionary *resultsDictionary) {
+        if (completed) {
+            completed(resultsDictionary);
+        }
+        return 0;
+    }];
+}
+
+- (BOOL)executeQuery:(NSString *)sql completed:(HTCacheExecuteQueryCompletedHandler)completed {
+    NSMutableArray *results = [NSMutableArray new];
+    FMResultSet *fmResult = [_database executeQuery:sql];
+    while ([fmResult next]) {
+        [results addObject: [fmResult resultDictionary]];
+    }
+    if (completed) {
+        completed([results copy]);
+    }
+    return YES;
+}
 
 #pragma mark - Utils
 - (NSString *)databasePathWithName:(NSString *)name {

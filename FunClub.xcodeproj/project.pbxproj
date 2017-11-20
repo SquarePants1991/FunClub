@@ -8,9 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		1681506CD091A8228C8AD914 /* DXNotExistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16815CA9D2792F5C0D71858E /* DXNotExistViewController.m */; };
+		16815168C635FABF4ECAEE8D /* HTSqlBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 168154DEFF5E250451F8602C /* HTSqlBuilder.m */; };
+		1681544A2DB73EA0BC69A89F /* HTCacheModelDataType.m in Sources */ = {isa = PBXBuildFile; fileRef = 16815D6EA1EEC34A37EEF2FD /* HTCacheModelDataType.m */; };
 		168156CE9EFF131E9E216E4C /* DXRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 168152D1385764425A84E5CA /* DXRouter.m */; };
 		168156E7309D1878ABB0C87C /* CommentListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16815AF7CC8B2E68BE2DF726 /* CommentListViewController.m */; };
 		1681583C7BAC27CFAD36D42E /* CommentCellNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 168152AFA67A92FE3F4E83B4 /* CommentCellNode.m */; };
+		168159E689FDC41A1D164F57 /* HTCacheModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1681543391491356F50497DD /* HTCacheModel.m */; };
 		168159F0D7FEB6B77DCB8153 /* ASProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 168154DEC9532901A1D4D833 /* ASProgressLayer.m */; };
 		16815A46844ED1BBA8F2AD46 /* ASProgressNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 16815EA9CAC397E25A8B5999 /* ASProgressNode.m */; };
 		16815CCF931534EFCCF41B47 /* CommentListItemViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 168151EA6639BC05A895E3C7 /* CommentListItemViewModel.m */; };
@@ -26,6 +29,7 @@
 		6D35AA22C00F4B36B34B9A2E /* Pods_FunClub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD4CB4108532D55680030025 /* Pods_FunClub.framework */; };
 		D3652D481FBEECA000AC0E37 /* FunClubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3652D471FBEECA000AC0E37 /* FunClubTests.m */; };
 		D3652D511FBEF07500AC0E37 /* HTCacheTable.m in Sources */ = {isa = PBXBuildFile; fileRef = D3652D501FBEF07400AC0E37 /* HTCacheTable.m */; };
+		D3A4D8E41FC2E41900F1E0FB /* HTCacheModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16815309E5793E4DF80D7DB2 /* HTCacheModelTests.m */; };
 		D3FECAFC1FA9C961006A2D6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FECAFB1FA9C961006A2D6F /* AppDelegate.m */; };
 		D3FECB021FA9C961006A2D6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3FECB001FA9C961006A2D6F /* Main.storyboard */; };
 		D3FECB041FA9C961006A2D6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3FECB031FA9C961006A2D6F /* Assets.xcassets */; };
@@ -51,14 +55,19 @@
 /* Begin PBXFileReference section */
 		1681500EB62F73CDCD072146 /* HTCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTCache.h; sourceTree = "<group>"; };
 		168150E637A5A29C40A6A34C /* CommentService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentService.m; sourceTree = "<group>"; };
+		1681516182FAED0CA23D41D6 /* HTSqlBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTSqlBuilder.h; sourceTree = "<group>"; };
 		168151EA6639BC05A895E3C7 /* CommentListItemViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentListItemViewModel.m; sourceTree = "<group>"; };
 		168152AFA67A92FE3F4E83B4 /* CommentCellNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentCellNode.m; sourceTree = "<group>"; };
 		168152D1385764425A84E5CA /* DXRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXRouter.m; sourceTree = "<group>"; };
+		16815309E5793E4DF80D7DB2 /* HTCacheModelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTCacheModelTests.m; sourceTree = "<group>"; };
 		168153AEA5FEBCC40748AFE0 /* ASProgressNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASProgressNode.h; sourceTree = "<group>"; };
 		1681540B391118D512ED1326 /* HTCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTCache.m; sourceTree = "<group>"; };
+		1681543391491356F50497DD /* HTCacheModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTCacheModel.m; sourceTree = "<group>"; };
 		168154A5FB94F3748165704D /* DXRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXRouter.h; sourceTree = "<group>"; };
 		168154DEC9532901A1D4D833 /* ASProgressLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASProgressLayer.m; sourceTree = "<group>"; };
+		168154DEFF5E250451F8602C /* HTSqlBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTSqlBuilder.m; sourceTree = "<group>"; };
 		16815531AC0B3CB0EC49A5BE /* DXNotExistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXNotExistViewController.h; sourceTree = "<group>"; };
+		16815559DF1D4C52576D5DFF /* HTCacheModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTCacheModel.h; sourceTree = "<group>"; };
 		168155C7831994A9FF478A50 /* UIButton+DXRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+DXRouter.m"; sourceTree = "<group>"; };
 		1681560DDF17ADA1802BD809 /* DXRouterUrlHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXRouterUrlHandler.m; sourceTree = "<group>"; };
 		16815738EF39B8B3220C14B6 /* CommentCellNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentCellNode.h; sourceTree = "<group>"; };
@@ -74,7 +83,9 @@
 		16815C8700213283FA683E0B /* DXRouterHelperMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXRouterHelperMacros.h; sourceTree = "<group>"; };
 		16815CA9D2792F5C0D71858E /* DXNotExistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXNotExistViewController.m; sourceTree = "<group>"; };
 		16815D11498F730A09EF165A /* PaginationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaginationTableViewController.h; sourceTree = "<group>"; };
+		16815D6EA1EEC34A37EEF2FD /* HTCacheModelDataType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTCacheModelDataType.m; sourceTree = "<group>"; };
 		16815DB5B3C2AED4DC87EAEC /* ASProgressLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASProgressLayer.h; sourceTree = "<group>"; };
+		16815E01BFF62051C9FA5121 /* HTCacheModelDataType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTCacheModelDataType.h; sourceTree = "<group>"; };
 		16815EA9CAC397E25A8B5999 /* ASProgressNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASProgressNode.m; sourceTree = "<group>"; };
 		339396AEFF2EF7CE545A19F0 /* Pods_FunClubTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunClubTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D99191A1FAA186400BCE718 /* WeiboIndexViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeiboIndexViewController.h; sourceTree = "<group>"; };
@@ -152,6 +163,12 @@
 				1681500EB62F73CDCD072146 /* HTCache.h */,
 				D3652D4F1FBEF07400AC0E37 /* HTCacheTable.h */,
 				D3652D501FBEF07400AC0E37 /* HTCacheTable.m */,
+				168154DEFF5E250451F8602C /* HTSqlBuilder.m */,
+				1681516182FAED0CA23D41D6 /* HTSqlBuilder.h */,
+				1681543391491356F50497DD /* HTCacheModel.m */,
+				16815559DF1D4C52576D5DFF /* HTCacheModel.h */,
+				16815D6EA1EEC34A37EEF2FD /* HTCacheModelDataType.m */,
+				16815E01BFF62051C9FA5121 /* HTCacheModelDataType.h */,
 			);
 			path = Cache;
 			sourceTree = "<group>";
@@ -327,6 +344,7 @@
 			children = (
 				D3652D471FBEECA000AC0E37 /* FunClubTests.m */,
 				D3652D491FBEECA000AC0E37 /* Info.plist */,
+				16815309E5793E4DF80D7DB2 /* HTCacheModelTests.m */,
 			);
 			path = FunClubTests;
 			sourceTree = "<group>";
@@ -578,6 +596,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3A4D8E41FC2E41900F1E0FB /* HTCacheModelTests.m in Sources */,
 				D3652D481FBEECA000AC0E37 /* FunClubTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -609,6 +628,9 @@
 				16815A46844ED1BBA8F2AD46 /* ASProgressNode.m in Sources */,
 				168159F0D7FEB6B77DCB8153 /* ASProgressLayer.m in Sources */,
 				16815DF09A6AC52BC870B14A /* HTCache.m in Sources */,
+				16815168C635FABF4ECAEE8D /* HTSqlBuilder.m in Sources */,
+				168159E689FDC41A1D164F57 /* HTCacheModel.m in Sources */,
+				1681544A2DB73EA0BC69A89F /* HTCacheModelDataType.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
