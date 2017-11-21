@@ -9,6 +9,7 @@
 @interface HTSqlBuilder : NSObject
 + (NSString *)fieldTypeToSqlString:(HTCacheTableFieldType)type;
 + (NSString *)fieldAttrsToSqlString:(NSArray *)attrs;
++ (NSString *)valueToSqlString:(id)val;
 + (NSString *)valueListToSqlString:(NSArray *)values;
 + (NSString *)fieldListToSqlString:(NSArray *)fields;
 + (NSString *)updateListToSqlString:(NSArray *)fields values:(NSArray *)values;

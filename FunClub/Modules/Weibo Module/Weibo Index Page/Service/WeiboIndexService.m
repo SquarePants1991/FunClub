@@ -7,10 +7,9 @@
 //
 
 #import "WeiboIndexService.h"
+#import "WeiboListItemModel.h"
 
 #import <ReactiveCocoa/ReactiveCocoa.h>
-
-#import "WeiboListItemViewModel.h"
 
 #define PageSize 15
 
@@ -40,14 +39,26 @@ const NSString *kWeiboUrl = @"http://120.55.151.67/weibofun/weibo_list.php?apive
             [replaySubject sendError:error];
             return;
         }
-        NSMutableArray *viewModels = [self parseJsonToViewModels: data];
-        self.maxTimestamp = [(WeiboListItemViewModel *)[viewModels lastObject] timestamp];
+        [WeiboListItemModel clearCache];
+        NSMutableArray *models = [self parseJsonToModels:data];
+        self.maxTimestamp = [[(WeiboListItemModel *)[models lastObject] timestamp] doubleValue];
         self.currentLoadPage = 1;
-        [replaySubject sendNext:viewModels];
+        [replaySubject sendNext:models];
         [replaySubject sendCompleted];
     }];
     [dataTask resume];
 
+    return replaySubject;
+}
+
+- (RACSignal *)restoreWeiboList {
+    RACReplaySubject * replaySubject = [RACReplaySubject subject];
+    [WeiboListItemModel fetch:0 limit:INT_MAX where:nil sortedBy:[HTCacheTableField fieldWithName:@"timestamp" type:HTCacheTableFieldTypeInteger] isDesc:YES completed:^(NSArray *models) {
+        self.maxTimestamp = [[(WeiboListItemModel *)[models lastObject] timestamp] doubleValue];
+        self.currentLoadPage = 1;
+        [replaySubject sendNext:models];
+        [replaySubject sendCompleted];
+    }];
     return replaySubject;
 }
 
@@ -64,10 +75,10 @@ const NSString *kWeiboUrl = @"http://120.55.151.67/weibofun/weibo_list.php?apive
             [replaySubject sendError:error];
             return;
         }
-        NSMutableArray *viewModels = [self parseJsonToViewModels: data];
-        self.maxTimestamp = [(WeiboListItemViewModel *)[viewModels lastObject] timestamp];
+        NSMutableArray *models = [self parseJsonToModels:data];
+        self.maxTimestamp = [[(WeiboListItemModel *)[models lastObject] timestamp] doubleValue];
         self.currentLoadPage++;
-        [replaySubject sendNext:viewModels];
+        [replaySubject sendNext:models];
         [replaySubject sendCompleted];
     }];
     [dataTask resume];
@@ -75,26 +86,32 @@ const NSString *kWeiboUrl = @"http://120.55.151.67/weibofun/weibo_list.php?apive
     return replaySubject;
 }
 
-#pragma mark - Parse View Model
-- (NSArray *)parseJsonToViewModels:(NSData *)jsonData {
+#pragma mark - Parse Model
+- (NSArray *)parseJsonToModels:(NSData *)jsonData {
     NSDictionary *json = [NSJSONSerialization JSONObjectWithData:jsonData options:NSJSONReadingAllowFragments error:nil];
     NSArray *items = json[@"items"];
-    NSMutableArray *viewModels = [NSMutableArray new];
+    NSMutableArray *models = [NSMutableArray new];
     for (NSDictionary * item in items) {
-        WeiboListItemViewModel *viewModel = [WeiboListItemViewModel new];
-
-        [viewModel setTime: [item[@"update_time"] doubleValue]];
-        [viewModel setImageUrl:item[@"wpic_middle"]];
-        [viewModel setTitle:item[@"wbody"]];
-        if (![item[@"uid"] isKindOfClass:[NSNull class]]) {
-            [viewModel setUid:[item[@"uid"] longLongValue]];
-        }
-        [viewModel setWid:([item[@"wid"] longLongValue])];
-        [viewModel setLikesCount:(int)([item[@"likes"] doubleValue])];
-        if ([item[@"w_sensitive"] intValue] == 0) {
-            [viewModels addObject:viewModel];
-        }
+        WeiboListItemModel *model = [[WeiboListItemModel alloc] initWithDictionary:item];
+        [models addObject:model];
     }
-    return viewModels;
+    [self saveModels:models];
+    return models;
+}
+
+- (void)saveModels:(NSArray *)models {
+    for (WeiboListItemModel *model in models) {
+        [model save];
+    }
+}
+
+#pragma mark - Read Point
+- (void)setLastReadPoint:(float)lastReadPoint {
+    [[NSUserDefaults standardUserDefaults] setObject:@(lastReadPoint) forKey:@"kLastReadPoint"];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+}
+
+- (float)lastReadPoint {
+    return [[[NSUserDefaults standardUserDefaults] objectForKey:@"kLastReadPoint"] floatValue];
 }
 @end

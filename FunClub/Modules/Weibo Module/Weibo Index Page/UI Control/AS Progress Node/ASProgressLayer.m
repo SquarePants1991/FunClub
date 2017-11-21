@@ -21,7 +21,14 @@
 }
 
 - (void)setProgress:(CGFloat)progress {
-    [self.barLayer setFrame: CGRectMake(0, 0, progress * self.bounds.size.width, self.bounds.size.height)];
+    if (_barLayer.frame.size.height != self.bounds.size.height) {
+        [CATransaction begin];
+        [CATransaction setValue:(id)kCFBooleanTrue forKey:kCATransactionDisableActions];
+        [self.barLayer setFrame: CGRectMake(0, 0, progress * self.bounds.size.width, self.bounds.size.height)];
+        [CATransaction commit];
+    } else {
+        [self.barLayer setFrame: CGRectMake(0, 0, progress * self.bounds.size.width, self.bounds.size.height)];
+    }
     _progress = progress;
 }
 

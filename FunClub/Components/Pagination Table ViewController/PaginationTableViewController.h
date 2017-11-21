@@ -13,4 +13,6 @@ typedef void(^RefreshCompleteHandler)(BOOL isSuccess);
 
 - (void)fetchMoreData:(ASBatchContext *)context;
 - (void)refreshData;
+- (void)restoreData;
+- (BOOL)canRestore;
 @end

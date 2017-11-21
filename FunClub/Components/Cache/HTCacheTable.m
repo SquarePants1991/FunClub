@@ -82,8 +82,9 @@
 - (BOOL)insertValue:(NSArray *)values toFields:(NSArray *)fields {
     NSString *valueList = [HTSqlBuilder valueListToSqlString:values];
     NSString *fieldList = [HTSqlBuilder fieldListToSqlString:fields];
-    NSString *sql = [NSString stringWithFormat:@"insert into CacheTable (%@) values(%@)", fieldList, valueList];
+    NSString *sql = [NSString stringWithFormat:@"insert into %@ (%@) values(%@)", self.name, fieldList, valueList];
     return [cache executeSql:sql completed:^(NSDictionary *resultSets) {
+
     }];
 }
 

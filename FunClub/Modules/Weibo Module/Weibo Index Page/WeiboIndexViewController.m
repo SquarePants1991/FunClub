@@ -18,6 +18,7 @@
 
 @interface WeiboIndexViewController () <DXRouterViewControllerInstantiation> {
     WeiboIndexService *_service;
+    NSTimer * _readPointRecordTimer;
 }
 
 @end
@@ -34,10 +35,21 @@ DXRouterInitPage()
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     [self.navigationController setNavigationBarHidden:NO animated:YES];
+
+    _readPointRecordTimer = [NSTimer timerWithTimeInterval:1 repeats:YES block:^(NSTimer *timer) {
+        [_service setLastReadPoint:self.tableNode.contentOffset.y];
+    }];
+    [[NSRunLoop mainRunLoop] addTimer:_readPointRecordTimer forMode:NSRunLoopCommonModes];
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+    [_readPointRecordTimer invalidate];
+    _readPointRecordTimer = nil;
 }
 
 - (ASCellNodeBlock)tableNode:(ASTableNode *)tableNode nodeBlockForRowAtIndexPath:(NSIndexPath *)indexPath {
-    WeiboListItemViewModel *viewModel = self.dataSource[indexPath.row];
+    WeiboListItemViewModel *viewModel = [[WeiboListItemViewModel alloc] initWithModel: self.dataSource[indexPath.row]];
     return ^{
         WeiboIndexCellNode *node = [[WeiboIndexCellNode alloc] initWithViewModel:viewModel];
         return node;
@@ -77,5 +89,25 @@ DXRouterInitPage()
     } error:^(NSError *error) {
         completed(NO);
     }];
+}
+
+- (void)restoreDataWithComplete:(RefreshCompleteHandler)completed {
+    @weakify(self);
+    [[_service restoreWeiboList] subscribeNext:^(id x) {
+        @strongify(self);
+        self.dataSource = x;
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [self.tableNode reloadData];
+            [self.tableNode setContentOffset:CGPointMake(0, _service.lastReadPoint)];
+            [self.tableNode.view.mj_header endRefreshing];
+            completed(YES);
+        });
+    } error:^(NSError *error) {
+        completed(NO);
+    }];
+}
+
+- (BOOL)canRestore {
+    return _service.lastReadPoint > 0;
 }
 @end

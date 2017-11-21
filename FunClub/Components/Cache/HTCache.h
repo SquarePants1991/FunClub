@@ -4,6 +4,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "HTCacheModel.h"
+#import "HTCacheTable.h"
 
 typedef void(^HTCacheExecuteSqlCompletedHandler)(NSDictionary *resultSets);
 typedef void(^HTCacheExecuteQueryCompletedHandler)(NSArray *resultSets);

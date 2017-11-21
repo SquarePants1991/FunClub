@@ -21,7 +21,9 @@ DXRouterInitPage()
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor redColor];
-    self.title = @"Funny！";
+    [[UINavigationBar appearance] setBarTintColor:[UIColor whiteColor]];
+    [[UINavigationBar appearance] setTranslucent:NO];
+    self.title = @"Fun Club";
     [self createWeibo];
 }
 

@@ -29,14 +29,22 @@
     return attrString;
 }
 
++ (NSString *)valueToSqlString:(id)val {
+    if ([val isKindOfClass:[NSNull class]]) {
+        return @"null";
+    }
+    if ([val isKindOfClass:[NSString class]]) {
+        return [NSString stringWithFormat:@"'%@'", val];
+    } else if ([val isKindOfClass:[NSNumber class]]) {
+        return [NSString stringWithFormat:@"'%lf'", [(NSNumber *)val doubleValue]];
+    }
+    return @"";
+}
+
 + (NSString *)valueListToSqlString:(NSArray *)values {
     NSMutableArray *processedArray = [NSMutableArray new];
     for (NSValue *val in values) {
-        if ([val isKindOfClass:[NSString class]]) {
-            [processedArray addObject:[NSString stringWithFormat:@"'%@'", val]];
-        } else if ([val isKindOfClass:[NSNumber class]]) {
-            [processedArray addObject:[NSString stringWithFormat:@"'%lf'", [(NSNumber *)val doubleValue]]];
-        }
+        [processedArray addObject:[self valueToSqlString:val]];
     }
     return [processedArray componentsJoinedByString:@","];
 }
@@ -54,11 +62,7 @@
     int index = 0;
     for (NSValue *val in values) {
         HTCacheTableField *field = fields[index];
-        if ([val isKindOfClass:[NSString class]]) {
-            [processedArray addObject:[NSString stringWithFormat:@"%@ = '%@'", field.name, val]];
-        } else if ([val isKindOfClass:[NSNumber class]]) {
-            [processedArray addObject:[NSString stringWithFormat:@"%@ = '%lf'", field.name, [(NSNumber *)val doubleValue]]];
-        }
+        [processedArray addObject:[NSString stringWithFormat:@"%@ = %@", field.name, [self valueToSqlString:val]]];
         index++;
     }
     return [processedArray componentsJoinedByString:@","];

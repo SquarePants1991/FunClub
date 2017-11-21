@@ -25,6 +25,8 @@
     ASButtonNode *_seeCompleteImageButton;
 
     WeiboListItemViewModel *_viewModel;
+
+    float _imageRatio;
 }
 
 @end
@@ -95,6 +97,9 @@
         
         
         [_commentButtonNode addTarget:self action:@selector(commentButtonTapped:) forControlEvents:ASControlNodeEventTouchUpInside];
+
+
+        _imageRatio = (float)(viewModel.imageHeight) / viewModel.imageWidth;
     }
     return self;
 }
@@ -112,18 +117,12 @@
     buttonsSpec.justifyContent = ASStackLayoutJustifyContentSpaceBetween;
     buttonsSpec.alignItems = ASStackLayoutAlignItemsCenter;
     [buttonsSpec setChildren:@[buttonsLeftSpec, buttonsRightSpec]];
+
     
-    float ratio = 1.0;
-    if (_imageNode.image) {
-        ratio = _imageNode.image.size.height / _imageNode.image.size.width;
-    } else if (_imageNode.animatedImage && _imageNode.animatedImage.coverImageReady) {
-        ratio = _imageNode.animatedImage.coverImage.size.height / _imageNode.animatedImage.coverImage.size.width;
-    }
-    
-    ASLayoutSpec *imageSpec = [ASRatioLayoutSpec ratioLayoutSpecWithRatio:ratio child:_imageNode];
-    if (ratio > 2.0) {
-        ratio = 1.0;
-        [(ASRatioLayoutSpec *)(imageSpec) setRatio:ratio];
+    ASLayoutSpec *imageSpec = [ASRatioLayoutSpec ratioLayoutSpecWithRatio:_imageRatio child:_imageNode];
+    if (_imageRatio > 2.0) {
+        _imageRatio = 1.0;
+        [(ASRatioLayoutSpec *)(imageSpec) setRatio:_imageRatio];
        _imageNode.contentMode = UIViewContentModeScaleAspectFill;
 
         ASInsetLayoutSpec *_newImageSpec = [ASInsetLayoutSpec insetLayoutSpecWithInsets:UIEdgeInsetsMake(INFINITY, 0, 0, 0) child:_seeCompleteImageButton];

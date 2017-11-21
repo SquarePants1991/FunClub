@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1681506CD091A8228C8AD914 /* DXNotExistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16815CA9D2792F5C0D71858E /* DXNotExistViewController.m */; };
 		16815168C635FABF4ECAEE8D /* HTSqlBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 168154DEFF5E250451F8602C /* HTSqlBuilder.m */; };
+		1681519058E97F7530D400A3 /* WeiboListItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 16815F9966DFC6133076926C /* WeiboListItemModel.m */; };
 		1681544A2DB73EA0BC69A89F /* HTCacheModelDataType.m in Sources */ = {isa = PBXBuildFile; fileRef = 16815D6EA1EEC34A37EEF2FD /* HTCacheModelDataType.m */; };
 		168156CE9EFF131E9E216E4C /* DXRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 168152D1385764425A84E5CA /* DXRouter.m */; };
 		168156E7309D1878ABB0C87C /* CommentListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16815AF7CC8B2E68BE2DF726 /* CommentListViewController.m */; };
@@ -72,6 +73,7 @@
 		1681560DDF17ADA1802BD809 /* DXRouterUrlHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXRouterUrlHandler.m; sourceTree = "<group>"; };
 		16815738EF39B8B3220C14B6 /* CommentCellNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentCellNode.h; sourceTree = "<group>"; };
 		1681577C9ACA78B3EC466F6E /* CommentListItemViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentListItemViewModel.h; sourceTree = "<group>"; };
+		168157BBA83116328EA766D9 /* WeiboListItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboListItemModel.h; sourceTree = "<group>"; };
 		1681581800F32CC528606478 /* CommentService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentService.h; sourceTree = "<group>"; };
 		1681583A16912FC2D626E62F /* CommentListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentListViewController.h; sourceTree = "<group>"; };
 		16815894C5EDE4B613C86DDB /* UIButton+DXRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+DXRouter.h"; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 		16815DB5B3C2AED4DC87EAEC /* ASProgressLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASProgressLayer.h; sourceTree = "<group>"; };
 		16815E01BFF62051C9FA5121 /* HTCacheModelDataType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTCacheModelDataType.h; sourceTree = "<group>"; };
 		16815EA9CAC397E25A8B5999 /* ASProgressNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASProgressNode.m; sourceTree = "<group>"; };
+		16815F9966DFC6133076926C /* WeiboListItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeiboListItemModel.m; sourceTree = "<group>"; };
 		339396AEFF2EF7CE545A19F0 /* Pods_FunClubTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunClubTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D99191A1FAA186400BCE718 /* WeiboIndexViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeiboIndexViewController.h; sourceTree = "<group>"; };
 		3D99191B1FAA186400BCE718 /* WeiboIndexViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeiboIndexViewController.m; sourceTree = "<group>"; };
@@ -191,6 +194,15 @@
 			path = Router;
 			sourceTree = "<group>";
 		};
+		1681561BB0D3F123D2C0EF40 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				16815F9966DFC6133076926C /* WeiboListItemModel.m */,
+				168157BBA83116328EA766D9 /* WeiboListItemModel.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		168158373A6FB033D8598100 /* UI Control */ = {
 			isa = PBXGroup;
 			children = (
@@ -277,6 +289,7 @@
 				3D9919231FAA1CBD00BCE718 /* UI Control */,
 				3D99191A1FAA186400BCE718 /* WeiboIndexViewController.h */,
 				3D99191B1FAA186400BCE718 /* WeiboIndexViewController.m */,
+				1681561BB0D3F123D2C0EF40 /* Model */,
 			);
 			path = "Weibo Index Page";
 			sourceTree = "<group>";
@@ -631,6 +644,7 @@
 				16815168C635FABF4ECAEE8D /* HTSqlBuilder.m in Sources */,
 				168159E689FDC41A1D164F57 /* HTCacheModel.m in Sources */,
 				1681544A2DB73EA0BC69A89F /* HTCacheModelDataType.m in Sources */,
+				1681519058E97F7530D400A3 /* WeiboListItemModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

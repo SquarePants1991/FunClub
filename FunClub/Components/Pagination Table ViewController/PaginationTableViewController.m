@@ -30,13 +30,10 @@
 
 - (void)loadView {
     [super loadView];
-    [self refreshData];
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-    _dataSource = [NSMutableArray new];
 
     _tableNode.leadingScreensForBatching = 1.0;
 
@@ -46,6 +43,13 @@
 
     @weakify(_tableNode);
     _tableNode.view.mj_header = [MJRefreshNormalHeader headerWithRefreshingTarget:self refreshingAction:@selector(refreshData)];
+
+    if ([self canRestore]) {
+        [self restoreData];
+    } else {
+        [self refreshData];
+    }
+
 }
 
 #pragma mark - Table Delegate & DataSource
@@ -79,11 +83,29 @@
     }];
 }
 
+- (void)restoreData {
+    @weakify(self);
+    [self restoreDataWithComplete:^(BOOL isSuccess) {
+        @strongify(self);
+        if (isSuccess) {
+            self.isLoaded = YES;
+        }
+    }];
+}
+
+- (BOOL)canRestore {
+    return NO;
+}
+
 - (void)fetchMoreData:(ASBatchContext *)context {
 
 }
 
 - (void)refreshDataWithComplete:(RefreshCompleteHandler)completed {
+
+}
+
+- (void)restoreDataWithComplete:(RefreshCompleteHandler)completed {
 
 }
 

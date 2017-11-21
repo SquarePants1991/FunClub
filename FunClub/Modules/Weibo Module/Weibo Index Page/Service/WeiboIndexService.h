@@ -12,6 +12,8 @@
 @interface WeiboIndexService : NSObject
 @property (assign, nonatomic) NSTimeInterval maxTimestamp;
 @property (assign, nonatomic) int currentLoadPage;
+@property (assign, nonatomic) float lastReadPoint;
 - (RACSignal *)refreshWeiboList;
+- (RACSignal *)restoreWeiboList;
 - (RACSignal *)fetchWeiboList;
 @end

@@ -26,13 +26,14 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       language = ""
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      codeCoverageEnabled = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D3652D341FBED74500AC0E37"
+               BlueprintIdentifier = "D3652D441FBEECA000AC0E37"
                BuildableName = "FunClubTests.xctest"
                BlueprintName = "FunClubTests"
                ReferencedContainer = "container:FunClub.xcodeproj">
